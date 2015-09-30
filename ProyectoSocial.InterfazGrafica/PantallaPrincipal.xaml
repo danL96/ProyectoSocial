@@ -1,0 +1,522 @@
+﻿<controls:MetroWindow x:Class="ProyectoSocial.InterfazGrafica.PantallaPrincipal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="PantallaPrincipal" Height="720.939" Width="1369.655" WindowTitleBrush="{x:Null}" WindowState="Maximized" Icon="Images/Acajutla.jpg">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Red.xaml" />
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <controls:MetroWindow.Background>
+        <ImageBrush ImageSource="Images/Fondo rojo-995046 (1).jpg"/>
+    </controls:MetroWindow.Background>
+    <Grid Background="LightBlue" Margin="0,140,2,-4">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="612*"/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="LayoutRoot" Margin="-10,0,0,0" Grid.RowSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="36*"/>
+                <ColumnDefinition Width="229*"/>
+                <ColumnDefinition Width="27*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <ImageBrush ImageSource="Images/Fondo rojo-995046 (1).jpg"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="271*"/>
+                <RowDefinition Height="196*"/>
+            </Grid.RowDefinitions>
+            <Menu Height="116" Name="menu1" Margin="18,-139,5,0" VerticalAlignment="Top" BorderThickness="2"
+              Foreground="White" FontSize="16" FontWeight="Bold" Grid.ColumnSpan="3">
+                <!--<Menu.Effect>
+                    <DropShadowEffect/>
+                </Menu.Effect>-->
+                <Menu.Background>
+                    <ImageBrush ImageSource="Images/fffff.jpg"/>
+                </Menu.Background>
+                <Menu.BitmapEffect>
+                    <DropShadowBitmapEffect />
+                </Menu.BitmapEffect>
+                <MenuItem Header="_Promotores" Margin=" 10,25" Foreground="#FFEAE6DE" FontSize="30" Height="65" Width="270" Click="MenuItem_Click_1" >
+                    <MenuItem.Effect>
+                        <DropShadowEffect/>
+                    </MenuItem.Effect>
+                    <MenuItem.Background>
+                        <ImageBrush ImageSource="Images/288917_cvet_krasnyj_obem_volna_1920x1200_(www.GdeFon.ru).jpg"/>
+                    </MenuItem.Background>
+
+                    <MenuItem.Icon>
+                        <Image Source="Images/administrador.png" Width="80" Height="80" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="_Proyectos" Margin=" 10,10" FontSize="30" Height="65" Width="240" Click="MenuItem_Click">
+                    <MenuItem.Effect>
+                        <DropShadowEffect/>
+                    </MenuItem.Effect>
+                    <MenuItem.Background>
+                        <ImageBrush ImageSource="Images/288917_cvet_krasnyj_obem_volna_1920x1200_(www.GdeFon.ru).jpg"/>
+                    </MenuItem.Background>
+
+                    <MenuItem.Icon>
+                        <Image Source="Images/fnd_proyectos.png" Width="75" Height="80" >
+                            <Image.Effect>
+                                <DropShadowEffect/>
+                            </Image.Effect>
+                        </Image>
+                    </MenuItem.Icon>
+                </MenuItem>
+
+
+                <MenuItem Header="ADESCOS" FontSize="30" Margin=" 10,10" Width="240"  Height="65" Click="MenuItem_Click_3">
+                    <MenuItem.Effect>
+                        <DropShadowEffect/>
+                    </MenuItem.Effect>
+                    <MenuItem.Background>
+                        <ImageBrush ImageSource="Images/288917_cvet_krasnyj_obem_volna_1920x1200_(www.GdeFon.ru).jpg"/>
+                    </MenuItem.Background>
+                    <MenuItem.Icon>
+                        <Image Source="Images/adescoo.ico" Width="75" Height="85" />
+                    </MenuItem.Icon>
+
+                </MenuItem>
+
+                <MenuItem Header="Formularios" Margin=" 10,10"  Foreground="White" FontSize="30" Width="260" Height="65" Click="MenuItem_Click_23">
+                    <MenuItem.Effect>
+                        <DropShadowEffect/>
+                    </MenuItem.Effect>
+                    <MenuItem.Background>
+                        <ImageBrush ImageSource="Images/288917_cvet_krasnyj_obem_volna_1920x1200_(www.GdeFon.ru).jpg"/>
+                    </MenuItem.Background>
+
+
+
+                    <MenuItem.Icon>
+                        <Image Source="Images/Settings.png" Width="65" Height="70" />
+                    </MenuItem.Icon>
+
+                    <Separator/>
+
+                    <MenuItem Header="_Administrador"  Foreground= "Black" >
+                        <MenuItem.Effect>
+                            <DropShadowEffect/>
+                        </MenuItem.Effect>
+
+                        <MenuItem.Icon>
+
+                            <Image Source="Images/adminn.png" Width="60" Height="60" />
+                        </MenuItem.Icon>
+
+                        <Separator/>
+                        <MenuItem Header="Nuevo" FontSize="20" Click="MenuItem_Click_4">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/agrega.png" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator/>
+                        <MenuItem Header="Buscar" FontSize="20" Click="MenuItem_Click_5">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/buscar.gif" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+
+                        <Separator/>
+                    </MenuItem>
+                    <Separator/>
+
+                    <Separator/>
+
+                    <MenuItem Header="_Actividades"  Foreground= "Black" >
+                        <MenuItem.Effect>
+                            <DropShadowEffect/>
+                        </MenuItem.Effect>
+
+                        <MenuItem.Icon>
+
+                            <Image Source="Images/acti2.png" Width="60" Height="60" />
+                        </MenuItem.Icon>
+
+                        <Separator/>
+                        <MenuItem Header="Nuevo" FontSize="20" Click="MenuItem_Click_6">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/agrega.png" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator/>
+                        <MenuItem Header="Buscar" FontSize="20" Click="MenuItem_Click_7">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/buscar.gif" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+
+                        <Separator/>
+                    </MenuItem>
+                    <Separator/>
+
+                    <Separator/>
+
+                    <MenuItem Header="_Zonas"  Foreground= "Black" >
+                        <MenuItem.Effect>
+                            <DropShadowEffect/>
+                        </MenuItem.Effect>
+
+                        <MenuItem.Icon>
+
+                            <Image Source="Images/binoculares.png" Width="70" Height="70" />
+                        </MenuItem.Icon>
+
+                        <Separator/>
+                        <MenuItem Header="Nuevo" FontSize="20" Click="MenuItem_Click_8">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/agrega.png" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator/>
+                        <MenuItem Header="Buscar" FontSize="20" Click="MenuItem_Click_9">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/buscar.gif" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+
+                        <Separator/>
+                    </MenuItem>
+                    <Separator/>
+
+                    <Separator/>
+                    <MenuItem Header="_Promotor Proyectos"  Foreground= "Black" >
+                        <MenuItem.Effect>
+                            <DropShadowEffect/>
+                        </MenuItem.Effect>
+
+                        <MenuItem.Icon>
+
+                            <Image Source="Images/promoproye.png" Width="90" Height="90" />
+                        </MenuItem.Icon>
+
+                        <Separator/>
+                        <MenuItem Header="Nuevo" FontSize="20" Click="MenuItem_Click_10">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/agrega.png" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator/>
+                        <MenuItem Header="Buscar" FontSize="20" Click="MenuItem_Click_12">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/buscar.gif" Width="50" Height="50"/>
+                            </MenuItem.Icon>
+                        </MenuItem>
+
+                        <Separator/>
+                    </MenuItem>
+                    <Separator/>
+
+                    <Separator/>
+                    <MenuItem Header="_Promotor Zonas"  Foreground= "Black" >
+                        <MenuItem.Effect>
+                            <DropShadowEffect/>
+                        </MenuItem.Effect>
+
+                        <MenuItem.Icon>
+
+                            <Image Source="Images/promozona.png" Width="65" Height="65" />
+                        </MenuItem.Icon>
+
+                        <Separator/>
+                        <MenuItem Header="Nuevo" FontSize="20" Click="MenuItem_Click_13">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/agrega.png" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator/>
+                        <MenuItem Header="Buscar" FontSize="20" Click="MenuItem_Click_14">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/buscar.gif" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+
+                        <Separator/>
+                    </MenuItem>
+                    <Separator/>
+
+                    <Separator/>
+                    <MenuItem Header="_Miembros ADESCOS"  Foreground= "Black" >
+                        <MenuItem.Effect>
+                            <DropShadowEffect/>
+                        </MenuItem.Effect>
+
+                        <MenuItem.Icon>
+
+                            <Image Source="Images/organizacion.png" Width="70" Height="70" />
+                        </MenuItem.Icon>
+
+                        <Separator/>
+                        <MenuItem Header="Nuevo" FontSize="20" Click="MenuItem_Click_15">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/agrega.png" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator/>
+                        <MenuItem Header="Buscar" FontSize="20" Click="MenuItem_Click_16">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/buscar.gif" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+
+                        <Separator/>
+                    </MenuItem>
+                    <Separator/>
+
+                    <MenuItem Header="_Promotores"  Foreground= "Black" >
+                        <MenuItem.Effect>
+                            <DropShadowEffect/>
+                        </MenuItem.Effect>
+
+                        <MenuItem.Icon>
+
+                            <Image Source="Images/administrador.png" Width="60" Height="60" />
+                        </MenuItem.Icon>
+
+                        <Separator/>
+                        <MenuItem Header="Nuevo" FontSize="20" Click="MenuItem_Click_17">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/agrega.png" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator/>
+                        <MenuItem Header="Buscar" FontSize="20" Click="MenuItem_Click_18">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/buscar.gif" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+
+                        <Separator/>
+                    </MenuItem>
+                    <Separator/>
+
+                    <Separator/>
+                    <MenuItem Header="_Proyectos"  Foreground= "Black" >
+                        <MenuItem.Effect>
+                            <DropShadowEffect/>
+                        </MenuItem.Effect>
+
+                        <MenuItem.Icon>
+
+                            <Image Source="Images/fnd_proyectos.png" Width="60" Height="60" />
+                        </MenuItem.Icon>
+
+                        <Separator/>
+                        <MenuItem Header="Nuevo" FontSize="20" Click="MenuItem_Click_19">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/agrega.png" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator/>
+                        <MenuItem Header="Buscar" FontSize="20" Click="MenuItem_Click_21">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/buscar.gif" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+
+                        <Separator/>
+                    </MenuItem>
+                    <Separator/>
+
+                    <Separator/>
+                    <MenuItem Header="_ADESCOS"  Foreground= "Black" >
+                        <MenuItem.Effect>
+                            <DropShadowEffect/>
+                        </MenuItem.Effect>
+
+                        <MenuItem.Icon>
+
+                            <Image Source="Images/adescoo.ico" Width="60" Height="60" />
+                        </MenuItem.Icon>
+
+                        <Separator/>
+                        <MenuItem Header="Nuevo" FontSize="20" Click="MenuItem_Click_20">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/agrega.png" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator/>
+                        <MenuItem Header="Buscar" FontSize="20" Click="MenuItem_Click_22">
+                            <MenuItem.Effect>
+                                <DropShadowEffect/>
+                            </MenuItem.Effect>
+
+
+                            <MenuItem.Icon>
+
+                                <Image Source="Images/buscar.gif" Width="50" Height="50" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+
+                        <Separator/>
+                    </MenuItem>
+                    <Separator/>
+
+
+                    <Separator/>
+
+                    <Separator/>
+                </MenuItem>
+
+                <MenuItem Header="Reporte" Margin=" 10,10" FontSize="30" Width="220" Height="65" Click="MenuItem_Click_11">
+                    <MenuItem.Effect>
+                        <DropShadowEffect/>
+                    </MenuItem.Effect>
+                    <MenuItem.Background>
+                        <ImageBrush ImageSource="Images/288917_cvet_krasnyj_obem_volna_1920x1200_(www.GdeFon.ru).jpg"/>
+                    </MenuItem.Background>
+                    <MenuItem.Icon>
+                        <Image Source="Images/reporte.png" Width="80" Height="65" />
+                    </MenuItem.Icon>
+
+                </MenuItem>
+
+
+            </Menu>
+            <Image HorizontalAlignment="Left" Height="100" Margin="48,20,0,0" VerticalAlignment="Top" Width="100" Grid.Row="2" Grid.Column="1">
+                <Image.OpacityMask>
+                    <ImageBrush/>
+                </Image.OpacityMask>
+            </Image>
+            <Label Content="                Sistema Control Proyectos - ADESCOS&#xA;                                            Proyección Social&#xD;&#xA;                         Alcaldía Municipal De Acajutla " HorizontalAlignment="Left" Foreground="white" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="48" FontFamily="Impact" Height="221" Width="994" FontWeight="Bold" Grid.Column="1" Background="{x:Null}">
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+            </Label>
+            <Image HorizontalAlignment="Left" Height="507" Margin="-58,-23,0,0" Grid.RowSpan="3" VerticalAlignment="Top" Width="515" Source="Images/ALCAL.png" Grid.ColumnSpan="2">
+                <Image.Effect>
+                    <DropShadowEffect/>
+                </Image.Effect>
+            </Image>
+            <Image Grid.Column="1" HorizontalAlignment="Left" Height="367" Margin="617,228,0,-40" Grid.Row="1" VerticalAlignment="Top" Width="562" Source="Images/blog 17..png" Grid.RowSpan="2" Grid.ColumnSpan="2">
+                <Image.Effect>
+                    <DropShadowEffect/>
+                </Image.Effect>
+            </Image>
+            <Button Content="" HorizontalAlignment="Left" Margin="18,142,0,0" Grid.Row="2" VerticalAlignment="Top" Width="92" Height="81" Click="Button_Click_1">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/screen off.png"/>
+                </Button.Background>
+                <Button.OpacityMask>
+                    <ImageBrush ImageSource="Images/screen off.png"/>
+                </Button.OpacityMask>
+            </Button>
+        </Grid>
+    </Grid>
+</controls:MetroWindow>

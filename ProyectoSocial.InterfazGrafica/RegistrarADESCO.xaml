@@ -1,0 +1,81 @@
+﻿<controls:MetroWindow x:Class="ProyectoSocial.InterfazGrafica.RegistrarADESCO"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="RegistrarADESCO" Height="422.932" Width="671.052" WindowStartupLocation="CenterScreen" Loaded="MetroWindow_Loaded_1" Icon="Images/adescoo.ico">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Red.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Label Content="Registrar ADESCO" HorizontalAlignment="Left" Margin="139,29,0,0" VerticalAlignment="Top" FontFamily="Castellar" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Id:" HorizontalAlignment="Left" Margin="88,94,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.869,0.175" FontFamily="Castellar">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="88,147,0,0" VerticalAlignment="Top" FontFamily="Castellar">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label Content="Tipo:" HorizontalAlignment="Left" Margin="88,206,0,0" VerticalAlignment="Top" FontFamily="Castellar">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <TextBox Name="txtId" BorderBrush="Red" HorizontalAlignment="Left" Height="23" Margin="176,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox Name="txtNombre" BorderBrush="Red" HorizontalAlignment="Left" Height="23" Margin="176,147,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="260">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox Name="txtTipo" BorderBrush="Red" HorizontalAlignment="Left" Height="23" Margin="176,206,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <Button Name="btnNuevo" Content="" HorizontalAlignment="Left" Margin="36,303,0,0" VerticalAlignment="Top" Width="75" Height="48" Click="btnNuevo_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Nuevo.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnGuardar" Content="" HorizontalAlignment="Left" Margin="139,303,0,0" VerticalAlignment="Top" Width="75" Height="48" Click="btnGuardar_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Guardar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnModificar" Content="" HorizontalAlignment="Left" Margin="241,303,0,0" VerticalAlignment="Top" Width="75" Height="48" Click="btnModificar_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Editar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnEliminar" Content="" HorizontalAlignment="Left" Margin="343,303,0,0" VerticalAlignment="Top" Width="75" Height="48" Click="btnEliminar_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Eliminar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnConsultar" Content="" HorizontalAlignment="Left" Margin="444,303,0,0" VerticalAlignment="Top" Width="75" Height="48" Click="btnConsultar_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Consultar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnSalir" Content="" HorizontalAlignment="Left" Margin="546,303,0,0" VerticalAlignment="Top" Width="75" Height="48" Click="btnSalir_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Salir1.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</controls:MetroWindow>

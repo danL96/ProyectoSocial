@@ -1,0 +1,46 @@
+﻿<controls:MetroWindow x:Class="ProyectoSocial.InterfazGrafica.BuscarProyecto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Buscas Proyecto" Height="389.268" Width="715.611" WindowStartupLocation="CenterScreen" Loaded="MetroWindow_Loaded_1" Icon="Images/buscar.gif">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Red.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Label Content="Nombre Proyecto:" HorizontalAlignment="Left" Margin="71,34,0,0" VerticalAlignment="Top">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <TextBox Name="txtBuscarProyecto" HorizontalAlignment="Left" Height="23" Margin="226,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" RenderTransformOrigin="0.656,2.316" TextChanged="txtBuscarProyecto_TextChanged">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <Button Name="btnBuscarProyecto" Content="" HorizontalAlignment="Left" Margin="537,34,0,0" VerticalAlignment="Top" Width="75" Height="29">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/lupa.png"/>
+            </Button.Background>
+        </Button>
+        <DataGrid Name="dgProyecto" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="71,125,0,0" VerticalAlignment="Top" Height="205" Width="563" MouseDoubleClick="dgProyecto_MouseDoubleClick">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=Id}" Header="Código" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Nombre}" Header="Nombre" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=TipoProyecto}" Header="Tipo" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Promotore.Nombre}" Header="Promotor" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Actividade.Nombre}" Header="Actividad" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=ADESCO.Nombre}" Header="ADESCO" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Zona.Nombre}" Header="Zona" Width="auto"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</controls:MetroWindow>

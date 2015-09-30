@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BDProyeccionSocialModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="BDProyeccionSocialModelStoreContainer">
+    <EntitySet Name="Actividades" EntityType="BDProyeccionSocialModel.Store.Actividades" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ADESCOS" EntityType="BDProyeccionSocialModel.Store.ADESCOS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Administradores" EntityType="BDProyeccionSocialModel.Store.Administradores" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MiembrosADESCO" EntityType="BDProyeccionSocialModel.Store.MiembrosADESCO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Promotores" EntityType="BDProyeccionSocialModel.Store.Promotores" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PromotorProyecto" EntityType="BDProyeccionSocialModel.Store.PromotorProyecto" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PromotorZona" EntityType="BDProyeccionSocialModel.Store.PromotorZona" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Proyectos" EntityType="BDProyeccionSocialModel.Store.Proyectos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Zonas" EntityType="BDProyeccionSocialModel.Store.Zonas" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ReportePromotor" EntityType="BDProyeccionSocialModel.Store.ReportePromotor" store:Type="Views" store:Schema="dbo" store:Name="ReportePromotor">
+      <DefiningQuery>SELECT 
+      [ReportePromotor].[Id Promotor] AS [Id Promotor], 
+      [ReportePromotor].[Nombre Promotor] AS [Nombre Promotor], 
+      [ReportePromotor].[Apellido Promotor] AS [Apellido Promotor], 
+      [ReportePromotor].[Telefono Promotor] AS [Telefono Promotor], 
+      [ReportePromotor].[Direccion Promotor] AS [Direccion Promotor], 
+      [ReportePromotor].[Nombre Zona] AS [Nombre Zona], 
+      [ReportePromotor].[Nombre Proyecto] AS [Nombre Proyecto], 
+      [ReportePromotor].[Nombre Actividad] AS [Nombre Actividad], 
+      [ReportePromotor].[Fecha Actividad] AS [Fecha Actividad], 
+      [ReportePromotor].[Nombre ADESCO] AS [Nombre ADESCO]
+      FROM [dbo].[ReportePromotor] AS [ReportePromotor]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__Promotore__IdZon__21B6055D" Association="BDProyeccionSocialModel.Store.FK__Promotore__IdZon__21B6055D">
+      <End Role="Zonas" EntitySet="Zonas" />
+      <End Role="Promotores" EntitySet="Promotores" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PromotorP__IdAct__2B3F6F97" Association="BDProyeccionSocialModel.Store.FK__PromotorP__IdAct__2B3F6F97">
+      <End Role="Actividades" EntitySet="Actividades" />
+      <End Role="PromotorProyecto" EntitySet="PromotorProyecto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PromotorP__IdADE__2C3393D0" Association="BDProyeccionSocialModel.Store.FK__PromotorP__IdADE__2C3393D0">
+      <End Role="ADESCOS" EntitySet="ADESCOS" />
+      <End Role="PromotorProyecto" EntitySet="PromotorProyecto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PromotorP__IdPro__2D27B809" Association="BDProyeccionSocialModel.Store.FK__PromotorP__IdPro__2D27B809">
+      <End Role="Proyectos" EntitySet="Proyectos" />
+      <End Role="PromotorProyecto" EntitySet="PromotorProyecto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PromotorP__IdPro__2E1BDC42" Association="BDProyeccionSocialModel.Store.FK__PromotorP__IdPro__2E1BDC42">
+      <End Role="Promotores" EntitySet="Promotores" />
+      <End Role="PromotorProyecto" EntitySet="PromotorProyecto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PromotorP__IdZon__2F10007B" Association="BDProyeccionSocialModel.Store.FK__PromotorP__IdZon__2F10007B">
+      <End Role="Zonas" EntitySet="Zonas" />
+      <End Role="PromotorProyecto" EntitySet="PromotorProyecto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PromotorZ__IdAct__267ABA7A" Association="BDProyeccionSocialModel.Store.FK__PromotorZ__IdAct__267ABA7A">
+      <End Role="Actividades" EntitySet="Actividades" />
+      <End Role="PromotorZona" EntitySet="PromotorZona" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PromotorZ__IdADE__276EDEB3" Association="BDProyeccionSocialModel.Store.FK__PromotorZ__IdADE__276EDEB3">
+      <End Role="ADESCOS" EntitySet="ADESCOS" />
+      <End Role="PromotorZona" EntitySet="PromotorZona" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PromotorZ__IdPro__286302EC" Association="BDProyeccionSocialModel.Store.FK__PromotorZ__IdPro__286302EC">
+      <End Role="Proyectos" EntitySet="Proyectos" />
+      <End Role="PromotorZona" EntitySet="PromotorZona" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PromotorZ__IdPro__29572725" Association="BDProyeccionSocialModel.Store.FK__PromotorZ__IdPro__29572725">
+      <End Role="Promotores" EntitySet="Promotores" />
+      <End Role="PromotorZona" EntitySet="PromotorZona" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PromotorZ__IdZon__2A4B4B5E" Association="BDProyeccionSocialModel.Store.FK__PromotorZ__IdZon__2A4B4B5E">
+      <End Role="Zonas" EntitySet="Zonas" />
+      <End Role="PromotorZona" EntitySet="PromotorZona" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Proyectos__IdAct__22AA2996" Association="BDProyeccionSocialModel.Store.FK__Proyectos__IdAct__22AA2996">
+      <End Role="Actividades" EntitySet="Actividades" />
+      <End Role="Proyectos" EntitySet="Proyectos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Proyectos__IdADE__239E4DCF" Association="BDProyeccionSocialModel.Store.FK__Proyectos__IdADE__239E4DCF">
+      <End Role="ADESCOS" EntitySet="ADESCOS" />
+      <End Role="Proyectos" EntitySet="Proyectos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Proyectos__IdPro__24927208" Association="BDProyeccionSocialModel.Store.FK__Proyectos__IdPro__24927208">
+      <End Role="Promotores" EntitySet="Promotores" />
+      <End Role="Proyectos" EntitySet="Proyectos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Proyectos__IdZon__25869641" Association="BDProyeccionSocialModel.Store.FK__Proyectos__IdZon__25869641">
+      <End Role="Zonas" EntitySet="Zonas" />
+      <End Role="Proyectos" EntitySet="Proyectos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Zonas__IdAdesco__20C1E124" Association="BDProyeccionSocialModel.Store.FK__Zonas__IdAdesco__20C1E124">
+      <End Role="ADESCOS" EntitySet="ADESCOS" />
+      <End Role="Zonas" EntitySet="Zonas" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Actividades">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Tipo" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Fecha" Type="nvarchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="ADESCOS">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="TipoADESCO" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Administradores">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Apellido" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Nick" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Pass" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Confirmar" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="MiembrosADESCO">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Apellido" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Cargo" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Promotores">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Apellido" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Telefono" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Direccion" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="IdZona" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PromotorProyecto">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="IdProyecto" Type="bigint" Nullable="false" />
+    <Property Name="IdPromotor" Type="bigint" Nullable="false" />
+    <Property Name="IdZona" Type="bigint" Nullable="false" />
+    <Property Name="IdActividad" Type="bigint" Nullable="false" />
+    <Property Name="IdADESCO" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PromotorZona">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="IdProyecto" Type="bigint" Nullable="false" />
+    <Property Name="IdPromotor" Type="bigint" Nullable="false" />
+    <Property Name="IdZona" Type="bigint" Nullable="false" />
+    <Property Name="IdActividad" Type="bigint" Nullable="false" />
+    <Property Name="IdADESCO" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Proyectos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="TipoProyecto" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IdPromotor" Type="bigint" Nullable="false" />
+    <Property Name="IdActividad" Type="bigint" Nullable="false" />
+    <Property Name="IdADESCO" Type="bigint" Nullable="false" />
+    <Property Name="IdZona" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Zonas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" />
+    <Property Name="IdAdesco" Type="bigint" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'BDProyeccionSocial.dbo.ReportePromotor' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="ReportePromotor">
+    <Key>
+      <PropertyRef Name="Id Promotor" />
+      <PropertyRef Name="Nombre Promotor" />
+      <PropertyRef Name="Apellido Promotor" />
+      <PropertyRef Name="Telefono Promotor" />
+      <PropertyRef Name="Direccion Promotor" />
+      <PropertyRef Name="Nombre Proyecto" />
+      <PropertyRef Name="Nombre Actividad" />
+      <PropertyRef Name="Fecha Actividad" />
+      <PropertyRef Name="Nombre ADESCO" />
+    </Key>
+    <Property Name="Id Promotor" Type="bigint" Nullable="false" />
+    <Property Name="Nombre Promotor" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Apellido Promotor" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Telefono Promotor" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Direccion Promotor" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Nombre Zona" Type="nvarchar" MaxLength="50" />
+    <Property Name="Nombre Proyecto" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Nombre Actividad" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Fecha Actividad" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Nombre ADESCO" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK__Promotore__IdZon__21B6055D">
+    <End Role="Zonas" Type="BDProyeccionSocialModel.Store.Zonas" Multiplicity="1" />
+    <End Role="Promotores" Type="BDProyeccionSocialModel.Store.Promotores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zonas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Promotores">
+        <PropertyRef Name="IdZona" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PromotorP__IdAct__2B3F6F97">
+    <End Role="Actividades" Type="BDProyeccionSocialModel.Store.Actividades" Multiplicity="1" />
+    <End Role="PromotorProyecto" Type="BDProyeccionSocialModel.Store.PromotorProyecto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Actividades">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PromotorProyecto">
+        <PropertyRef Name="IdActividad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PromotorP__IdADE__2C3393D0">
+    <End Role="ADESCOS" Type="BDProyeccionSocialModel.Store.ADESCOS" Multiplicity="1" />
+    <End Role="PromotorProyecto" Type="BDProyeccionSocialModel.Store.PromotorProyecto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ADESCOS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PromotorProyecto">
+        <PropertyRef Name="IdADESCO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PromotorP__IdPro__2D27B809">
+    <End Role="Proyectos" Type="BDProyeccionSocialModel.Store.Proyectos" Multiplicity="1" />
+    <End Role="PromotorProyecto" Type="BDProyeccionSocialModel.Store.PromotorProyecto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proyectos">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PromotorProyecto">
+        <PropertyRef Name="IdProyecto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PromotorP__IdPro__2E1BDC42">
+    <End Role="Promotores" Type="BDProyeccionSocialModel.Store.Promotores" Multiplicity="1" />
+    <End Role="PromotorProyecto" Type="BDProyeccionSocialModel.Store.PromotorProyecto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Promotores">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PromotorProyecto">
+        <PropertyRef Name="IdPromotor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PromotorP__IdZon__2F10007B">
+    <End Role="Zonas" Type="BDProyeccionSocialModel.Store.Zonas" Multiplicity="1" />
+    <End Role="PromotorProyecto" Type="BDProyeccionSocialModel.Store.PromotorProyecto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zonas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PromotorProyecto">
+        <PropertyRef Name="IdZona" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PromotorZ__IdAct__267ABA7A">
+    <End Role="Actividades" Type="BDProyeccionSocialModel.Store.Actividades" Multiplicity="1" />
+    <End Role="PromotorZona" Type="BDProyeccionSocialModel.Store.PromotorZona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Actividades">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PromotorZona">
+        <PropertyRef Name="IdActividad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PromotorZ__IdADE__276EDEB3">
+    <End Role="ADESCOS" Type="BDProyeccionSocialModel.Store.ADESCOS" Multiplicity="1" />
+    <End Role="PromotorZona" Type="BDProyeccionSocialModel.Store.PromotorZona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ADESCOS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PromotorZona">
+        <PropertyRef Name="IdADESCO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PromotorZ__IdPro__286302EC">
+    <End Role="Proyectos" Type="BDProyeccionSocialModel.Store.Proyectos" Multiplicity="1" />
+    <End Role="PromotorZona" Type="BDProyeccionSocialModel.Store.PromotorZona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proyectos">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PromotorZona">
+        <PropertyRef Name="IdProyecto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PromotorZ__IdPro__29572725">
+    <End Role="Promotores" Type="BDProyeccionSocialModel.Store.Promotores" Multiplicity="1" />
+    <End Role="PromotorZona" Type="BDProyeccionSocialModel.Store.PromotorZona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Promotores">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PromotorZona">
+        <PropertyRef Name="IdPromotor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PromotorZ__IdZon__2A4B4B5E">
+    <End Role="Zonas" Type="BDProyeccionSocialModel.Store.Zonas" Multiplicity="1" />
+    <End Role="PromotorZona" Type="BDProyeccionSocialModel.Store.PromotorZona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zonas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PromotorZona">
+        <PropertyRef Name="IdZona" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Proyectos__IdAct__22AA2996">
+    <End Role="Actividades" Type="BDProyeccionSocialModel.Store.Actividades" Multiplicity="1" />
+    <End Role="Proyectos" Type="BDProyeccionSocialModel.Store.Proyectos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Actividades">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Proyectos">
+        <PropertyRef Name="IdActividad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Proyectos__IdADE__239E4DCF">
+    <End Role="ADESCOS" Type="BDProyeccionSocialModel.Store.ADESCOS" Multiplicity="1" />
+    <End Role="Proyectos" Type="BDProyeccionSocialModel.Store.Proyectos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ADESCOS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Proyectos">
+        <PropertyRef Name="IdADESCO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Proyectos__IdPro__24927208">
+    <End Role="Promotores" Type="BDProyeccionSocialModel.Store.Promotores" Multiplicity="1" />
+    <End Role="Proyectos" Type="BDProyeccionSocialModel.Store.Proyectos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Promotores">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Proyectos">
+        <PropertyRef Name="IdPromotor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Proyectos__IdZon__25869641">
+    <End Role="Zonas" Type="BDProyeccionSocialModel.Store.Zonas" Multiplicity="1" />
+    <End Role="Proyectos" Type="BDProyeccionSocialModel.Store.Proyectos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zonas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Proyectos">
+        <PropertyRef Name="IdZona" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Zonas__IdAdesco__20C1E124">
+    <End Role="ADESCOS" Type="BDProyeccionSocialModel.Store.ADESCOS" Multiplicity="1" />
+    <End Role="Zonas" Type="BDProyeccionSocialModel.Store.Zonas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ADESCOS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Zonas">
+        <PropertyRef Name="IdAdesco" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

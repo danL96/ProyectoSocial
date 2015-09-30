@@ -1,0 +1,30 @@
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.LogicadeNegocio.dll.config
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.LogicadeNegocio.dll
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.LogicadeNegocio.pdb
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\EntityFramework.dll
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.AccesoADatos.dll
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.AccesoADatos.pdb
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\EntityFramework.xml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.dll
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.LogicadeNegocio.dll.config
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.LogicadeNegocio.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.LogicadeNegocio.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\EntityFramework.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.AccesoADatos.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.AccesoADatos.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\EntityFramework.xml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.csprojResolveAssemblyReference.cache
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.pdb
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.LogicadeNegocio.dll.config
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.LogicadeNegocio.dll
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.LogicadeNegocio.pdb
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\EntityFramework.dll
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.AccesoADatos.dll
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.AccesoADatos.pdb
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\EntityFramework.xml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.csprojResolveAssemblyReference.cache
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.dll
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.pdb
