@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BDProyeccionSocialModelStoreContainer" CdmEntityContainer="BDProyeccionSocialEntities">
+    <EntitySetMapping Name="Actividades">
+      <EntityTypeMapping TypeName="BDProyeccionSocialModel.Actividade">
+        <MappingFragment StoreEntitySet="Actividades">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ADESCOS">
+      <EntityTypeMapping TypeName="BDProyeccionSocialModel.ADESCO">
+        <MappingFragment StoreEntitySet="ADESCOS">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="TipoADESCO" ColumnName="TipoADESCO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Administradores">
+      <EntityTypeMapping TypeName="BDProyeccionSocialModel.Administradore">
+        <MappingFragment StoreEntitySet="Administradores">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Nick" ColumnName="Nick" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+          <ScalarProperty Name="Confirmar" ColumnName="Confirmar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MiembrosADESCOes">
+      <EntityTypeMapping TypeName="BDProyeccionSocialModel.MiembrosADESCO">
+        <MappingFragment StoreEntitySet="MiembrosADESCO">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Promotores">
+      <EntityTypeMapping TypeName="BDProyeccionSocialModel.Promotore">
+        <MappingFragment StoreEntitySet="Promotores">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="IdZona" ColumnName="IdZona" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PromotorProyectoes">
+      <EntityTypeMapping TypeName="BDProyeccionSocialModel.PromotorProyecto">
+        <MappingFragment StoreEntitySet="PromotorProyecto">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdProyecto" ColumnName="IdProyecto" />
+          <ScalarProperty Name="IdPromotor" ColumnName="IdPromotor" />
+          <ScalarProperty Name="IdZona" ColumnName="IdZona" />
+          <ScalarProperty Name="IdActividad" ColumnName="IdActividad" />
+          <ScalarProperty Name="IdADESCO" ColumnName="IdADESCO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PromotorZonas">
+      <EntityTypeMapping TypeName="BDProyeccionSocialModel.PromotorZona">
+        <MappingFragment StoreEntitySet="PromotorZona">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdProyecto" ColumnName="IdProyecto" />
+          <ScalarProperty Name="IdPromotor" ColumnName="IdPromotor" />
+          <ScalarProperty Name="IdZona" ColumnName="IdZona" />
+          <ScalarProperty Name="IdActividad" ColumnName="IdActividad" />
+          <ScalarProperty Name="IdADESCO" ColumnName="IdADESCO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proyectos">
+      <EntityTypeMapping TypeName="BDProyeccionSocialModel.Proyecto">
+        <MappingFragment StoreEntitySet="Proyectos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="TipoProyecto" ColumnName="TipoProyecto" />
+          <ScalarProperty Name="IdPromotor" ColumnName="IdPromotor" />
+          <ScalarProperty Name="IdActividad" ColumnName="IdActividad" />
+          <ScalarProperty Name="IdADESCO" ColumnName="IdADESCO" />
+          <ScalarProperty Name="IdZona" ColumnName="IdZona" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zonas">
+      <EntityTypeMapping TypeName="BDProyeccionSocialModel.Zona">
+        <MappingFragment StoreEntitySet="Zonas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="IdAdesco" ColumnName="IdAdesco" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReportePromotors">
+      <EntityTypeMapping TypeName="BDProyeccionSocialModel.ReportePromotor">
+        <MappingFragment StoreEntitySet="ReportePromotor">
+          <ScalarProperty Name="Id_Promotor" ColumnName="Id Promotor" />
+          <ScalarProperty Name="Nombre_Promotor" ColumnName="Nombre Promotor" />
+          <ScalarProperty Name="Apellido_Promotor" ColumnName="Apellido Promotor" />
+          <ScalarProperty Name="Telefono_Promotor" ColumnName="Telefono Promotor" />
+          <ScalarProperty Name="Direccion_Promotor" ColumnName="Direccion Promotor" />
+          <ScalarProperty Name="Nombre_Zona" ColumnName="Nombre Zona" />
+          <ScalarProperty Name="Nombre_Proyecto" ColumnName="Nombre Proyecto" />
+          <ScalarProperty Name="Nombre_Actividad" ColumnName="Nombre Actividad" />
+          <ScalarProperty Name="Fecha_Actividad" ColumnName="Fecha Actividad" />
+          <ScalarProperty Name="Nombre_ADESCO" ColumnName="Nombre ADESCO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

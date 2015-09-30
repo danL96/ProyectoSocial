@@ -1,0 +1,88 @@
+﻿<controls:MetroWindow x:Class="ProyectoSocial.InterfazGrafica.RegistrarPromotorZona"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="RegistrarPromotorZona" Height="552.564" Width="706.41" WindowStartupLocation="CenterScreen" Loaded="MetroWindow_Loaded_1" Icon="Images/promozona.png">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Red.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Label Content="Asignar Promotor-Zona" HorizontalAlignment="Left" Margin="169,47,0,0" VerticalAlignment="Top" FontFamily="Castellar" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Id:" HorizontalAlignment="Left" Margin="79,105,0,0" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <Label Content="Proyecto:" HorizontalAlignment="Left" Margin="64,148,0,0" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <Label Content="Promotor:" HorizontalAlignment="Left" Margin="64,190,0,0" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <Label Content="Zona:" HorizontalAlignment="Left" Margin="64,230,0,0" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <Label Content="Actividad:" HorizontalAlignment="Left" Margin="65,272,0,0" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <Label Content="Adesco:" HorizontalAlignment="Left" Margin="64,312,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.076,-0.335" FontFamily="Castellar"/>
+        <TextBox Name="txtId" BorderBrush="Red" HorizontalAlignment="Left" Height="23" Margin="202,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtProyecto" BorderBrush="Red" HorizontalAlignment="Left" Height="23" Margin="202,148,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="267"/>
+        <TextBox Name="txtPromotor" BorderBrush="Red" HorizontalAlignment="Left" Height="23" Margin="202,191,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="267"/>
+        <TextBox Name="txtZona" BorderBrush="Red" HorizontalAlignment="Left" Height="23" Margin="202,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="267"/>
+        <TextBox Name="txtActividad" BorderBrush="Red" HorizontalAlignment="Left" Height="23" Margin="202,272,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="267"/>
+        <TextBox Name="txtAdesco" BorderBrush="Red" HorizontalAlignment="Left" Height="23" Margin="202,312,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="267"/>
+        <Button Name="btnBusProyecto" Content="" HorizontalAlignment="Left" Margin="500,148,0,0" VerticalAlignment="Top" Width="39" Height="24" Click="btnBusProyecto_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/lupa.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnBusPromotor" Content="" HorizontalAlignment="Left" Margin="500,190,0,0" VerticalAlignment="Top" Width="39" Height="24" Click="btnBusPromotor_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/lupa.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnBusZona" Content="" HorizontalAlignment="Left" Margin="500,230,0,0" VerticalAlignment="Top" Width="39" Height="24" Click="btnBusZona_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/lupa.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnBusActividad" Content="" HorizontalAlignment="Left" Margin="500,272,0,0" VerticalAlignment="Top" Width="39" Height="24" Click="btnBusActividad_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/lupa.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnBusAdesco" Content="" HorizontalAlignment="Left" Margin="500,312,0,0" VerticalAlignment="Top" Width="39" Height="23" Click="btnBusAdesco_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/lupa.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnNuevo" Content="" HorizontalAlignment="Left" Margin="41,391,0,0" VerticalAlignment="Top" Width="75" Height="62" Click="btnNuevo_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Nuevo.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnGuardar" Content="" HorizontalAlignment="Left" Margin="144,391,0,0" VerticalAlignment="Top" Width="75" Height="62" Click="btnGuardar_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Guardar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnModificar" Content="" HorizontalAlignment="Left" Margin="246,391,0,0" VerticalAlignment="Top" Width="75" Height="62" Click="btnModificar_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Editar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnEliminar" Content="" HorizontalAlignment="Left" Margin="349,391,0,0" VerticalAlignment="Top" Width="75" Height="62" Click="btnEliminar_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Eliminar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnConsultar" Content="" HorizontalAlignment="Left" Margin="454,391,0,0" VerticalAlignment="Top" Width="75" Height="62" Click="btnConsultar_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Consultar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnSalir" Content="" HorizontalAlignment="Left" Margin="562,391,0,0" VerticalAlignment="Top" Width="75" Height="62" Click="btnSalir_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Salir1.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</controls:MetroWindow>

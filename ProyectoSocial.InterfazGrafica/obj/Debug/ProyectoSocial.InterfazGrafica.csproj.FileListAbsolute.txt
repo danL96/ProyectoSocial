@@ -1,0 +1,415 @@
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.exe.config
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.exe
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.pdb
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\EntityFramework.dll
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\MahApps.Metro.dll
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.AccesoADatos.dll
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.LogicadeNegocio.dll
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.AccesoADatos.pdb
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.LogicadeNegocio.pdb
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\EntityFramework.xml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\MahApps.Metro.xml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.csprojResolveAssemblyReference.cache
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarActividad.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarADESCO.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarAdministrador.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorZona.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarProyecto.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarZona.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\MainWindow.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarMiembros.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotor.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaPrincipal.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarActividad.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarADESCO.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarAdministrador.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarMiembroADESCO.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarZona.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Resources\Icons.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarActividad.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarADESCO.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarAdministrador.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorZona.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarProyecto.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarZona.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\MainWindow.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarMiembros.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotor.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaPrincipal.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarActividad.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarADESCO.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarAdministrador.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarMiembroADESCO.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarZona.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Resources\Icons.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\App.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica_MarkupCompile.cache
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.g.resources
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.Properties.Resources.resources
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.csproj.GenerateResource.Cache
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.exe
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.pdb
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotor.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarProyecto.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotor.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarProyecto.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RdlCompile.cache
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RdlCompile.compiled
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\FrmReportePromotor.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\FrmReportePromotor.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorZona.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorZona.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaLogin.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaLogin.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorProyecto.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorProyecto.baml
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorProyecto.g.cs
+C:\Users\Alumno\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorProyecto.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.exe.config
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.exe
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.pdb
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.exe
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.pdb
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\EntityFramework.dll
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\MahApps.Metro.dll
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.AccesoADatos.dll
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.LogicadeNegocio.dll
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\System.Windows.Interactivity.dll
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.AccesoADatos.pdb
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.LogicadeNegocio.pdb
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\EntityFramework.xml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\MahApps.Metro.xml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.csprojResolveAssemblyReference.cache
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarActividad.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarADESCO.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarAdministrador.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorProyecto.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorZona.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarProyecto.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarZona.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\FrmReportePromotor.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\MainWindow.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarMiembros.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotor.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaLogin.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaPrincipal.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarActividad.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarADESCO.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarAdministrador.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarMiembroADESCO.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotor.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorProyecto.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorZona.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarProyecto.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarZona.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Resources\Icons.baml
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarActividad.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarADESCO.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarAdministrador.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorProyecto.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorZona.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarProyecto.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarZona.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\FrmReportePromotor.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\MainWindow.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarMiembros.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotor.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaLogin.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaPrincipal.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarActividad.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarADESCO.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarAdministrador.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarMiembroADESCO.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotor.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorProyecto.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorZona.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarProyecto.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarZona.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Resources\Icons.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\App.g.cs
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica_MarkupCompile.cache
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.g.resources
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.Properties.Resources.resources
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.csproj.GenerateResource.Cache
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RdlCompile.cache
+F:\Proyecto finalizado\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RdlCompile.compiled
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.exe.config
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.exe
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.pdb
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.exe
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.pdb
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\EntityFramework.dll
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\MahApps.Metro.dll
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.AccesoADatos.dll
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.LogicadeNegocio.dll
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.AccesoADatos.pdb
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.LogicadeNegocio.pdb
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\EntityFramework.xml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\MahApps.Metro.xml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarActividad.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarADESCO.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarAdministrador.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorProyecto.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorZona.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarProyecto.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarZona.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\FrmReportePromotor.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\MainWindow.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarMiembros.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotor.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaLogin.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaPrincipal.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarActividad.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarADESCO.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarAdministrador.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarMiembroADESCO.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotor.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorProyecto.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorZona.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarProyecto.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarZona.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Resources\Icons.baml
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarActividad.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarADESCO.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarAdministrador.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorProyecto.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorZona.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarProyecto.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarZona.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\FrmReportePromotor.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\MainWindow.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarMiembros.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotor.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaLogin.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaPrincipal.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarActividad.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarADESCO.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarAdministrador.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarMiembroADESCO.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotor.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorProyecto.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorZona.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarProyecto.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarZona.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Resources\Icons.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\App.g.cs
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica_MarkupCompile.cache
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.g.resources
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.Properties.Resources.resources
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.csproj.GenerateResource.Cache
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RdlCompile.cache
+C:\Users\Daniel\Documents\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RdlCompile.compiled
+C:\Users\DANIEL\Desktop\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.exe.config
+C:\Users\DANIEL\Desktop\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.exe
+C:\Users\DANIEL\Desktop\Aplicaciones de escritorio 2014\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.exe.config
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.exe
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.exe
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\EntityFramework.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\MahApps.Metro.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.AccesoADatos.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.LogicadeNegocio.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.AccesoADatos.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.LogicadeNegocio.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\EntityFramework.xml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\MahApps.Metro.xml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.csprojResolveAssemblyReference.cache
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarActividad.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarADESCO.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarAdministrador.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorProyecto.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorZona.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarProyecto.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarZona.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\FrmReportePromotor.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\MainWindow.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarMiembros.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotor.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaLogin.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaPrincipal.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarActividad.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarADESCO.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarAdministrador.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarMiembroADESCO.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotor.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorProyecto.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorZona.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarProyecto.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarZona.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Resources\Icons.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarActividad.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarADESCO.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarAdministrador.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorProyecto.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorZona.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarProyecto.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarZona.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\FrmReportePromotor.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\MainWindow.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarMiembros.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotor.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaLogin.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaPrincipal.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarActividad.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarADESCO.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarAdministrador.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarMiembroADESCO.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotor.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorProyecto.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorZona.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarProyecto.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarZona.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Resources\Icons.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\App.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica_MarkupCompile.cache
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.g.resources
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.Properties.Resources.resources
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.csproj.GenerateResource.Cache
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RdlCompile.cache
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RdlCompile.compiled
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.exe.config
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.exe
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.pdb
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\EntityFramework.dll
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\MahApps.Metro.dll
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.AccesoADatos.dll
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.LogicadeNegocio.dll
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.AccesoADatos.pdb
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.LogicadeNegocio.pdb
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\EntityFramework.xml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\MahApps.Metro.xml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarActividad.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarADESCO.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarAdministrador.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorProyecto.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorZona.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarProyecto.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarZona.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\FrmReportePromotor.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\MainWindow.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarMiembros.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotor.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaLogin.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaPrincipal.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarActividad.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarADESCO.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarAdministrador.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarMiembroADESCO.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotor.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorProyecto.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorZona.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarProyecto.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarZona.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Registro.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Resources\Icons.baml
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarActividad.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarADESCO.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarAdministrador.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorProyecto.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorZona.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarProyecto.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarZona.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\FrmReportePromotor.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\MainWindow.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarMiembros.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotor.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaLogin.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaPrincipal.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarActividad.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarADESCO.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarAdministrador.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarMiembroADESCO.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotor.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorProyecto.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorZona.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarProyecto.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarZona.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Registro.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Resources\Icons.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\App.g.cs
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica_MarkupCompile.cache
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.g.resources
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.Properties.Resources.resources
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.csproj.GenerateResource.Cache
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RdlCompile.cache
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RdlCompile.compiled
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.exe
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.pdb
+C:\Users\DANIEL\Desktop\Proyecto\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.csprojResolveAssemblyReference.cache
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.exe.config
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.exe
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.InterfazGrafica.pdb
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\EntityFramework.dll
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\MahApps.Metro.dll
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.AccesoADatos.dll
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.LogicadeNegocio.dll
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.AccesoADatos.pdb
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\ProyectoSocial.LogicadeNegocio.pdb
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\EntityFramework.xml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\bin\Debug\MahApps.Metro.xml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.csprojResolveAssemblyReference.cache
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarActividad.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarADESCO.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarAdministrador.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorProyecto.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorZona.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarProyecto.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarZona.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\FrmReportePromotor.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\MainWindow.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarMiembros.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotor.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaLogin.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaPrincipal.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarActividad.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarADESCO.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarAdministrador.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarMiembroADESCO.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotor.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorProyecto.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorZona.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarProyecto.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarZona.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Registro.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Resources\Icons.baml
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarActividad.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarADESCO.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarAdministrador.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorProyecto.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotorZona.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarProyecto.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarZona.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\FrmReportePromotor.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\MainWindow.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarMiembros.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\BuscarPromotor.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaLogin.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\PantallaPrincipal.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarActividad.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarADESCO.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarAdministrador.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarMiembroADESCO.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotor.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorProyecto.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarPromotorZona.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarProyecto.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RegistrarZona.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Registro.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\Resources\Icons.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\App.g.cs
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica_MarkupCompile.cache
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.g.resources
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.Properties.Resources.resources
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.csproj.GenerateResource.Cache
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RdlCompile.cache
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\RdlCompile.compiled
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.exe
+C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.InterfazGrafica\obj\Debug\ProyectoSocial.InterfazGrafica.pdb

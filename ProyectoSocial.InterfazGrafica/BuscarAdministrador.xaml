@@ -1,0 +1,46 @@
+﻿<controls:MetroWindow x:Class="ProyectoSocial.InterfazGrafica.BuscarAdministrador"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Buscar Administrador" Height="447.805" Width="721.463" Loaded="MetroWindow_Loaded_1" WindowStartupLocation="CenterScreen" Icon="Images/buscar.gif">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Red.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Label Content="Nombre Administrador:" HorizontalAlignment="Left" Margin="63,49,0,0" VerticalAlignment="Top">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <TextBox Name="txtNombreAdministrador" HorizontalAlignment="Left" Height="23" Margin="223,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="266" TextChanged="txtNombreAdministrador_TextChanged">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <Button Name="btnBuscarAdministrador" Content="" HorizontalAlignment="Left" Margin="547,49,0,0" VerticalAlignment="Top" Width="75" Height="28">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/lupa.png"/>
+            </Button.Background>
+        </Button>
+        <DataGrid Name="dgAdministrador" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="63,163,0,0" VerticalAlignment="Top" Height="208" Width="580" MouseDoubleClick="dgAdministrador_MouseDoubleClick">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=Id}" Header="Código" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Nombre}" Header="Nombre" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Apellido}" Header="Apellido" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Nick}" Header="Nick" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Pass}" Header="Contraseña" Width="auto"></DataGridTextColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+    </Grid>
+</controls:MetroWindow>

@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C5C053F-8A18-4DC8-8FAF-0D8FDDE39069}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProyectoSocial.InterfazGrafica</RootNamespace>
+    <AssemblyName>ProyectoSocial.InterfazGrafica</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro">
+      <HintPath>..\packages\MahApps.Metro.0.15.0-ALPHA29\lib\net45\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>..\packages\MahApps.Metro.0.15.0-ALPHA29\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="BuscarPromotorProyecto.xaml.cs">
+      <DependentUpon>BuscarPromotorProyecto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportePromotor.xaml.cs">
+      <DependentUpon>FrmReportePromotor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaLogin.xaml.cs">
+      <DependentUpon>PantallaLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaPrincipal.xaml.cs">
+      <DependentUpon>PantallaPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarActividad.xaml.cs">
+      <DependentUpon>RegistrarActividad.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarADESCO.xaml.cs">
+      <DependentUpon>RegistrarADESCO.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarAdministrador.xaml.cs">
+      <DependentUpon>RegistrarAdministrador.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarMiembroADESCO.xaml.cs">
+      <DependentUpon>RegistrarMiembroADESCO.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarPromotor.xaml.cs">
+      <DependentUpon>RegistrarPromotor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarPromotorProyecto.xaml.cs">
+      <DependentUpon>RegistrarPromotorProyecto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarPromotorZona.xaml.cs">
+      <DependentUpon>RegistrarPromotorZona.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarProyecto.xaml.cs">
+      <DependentUpon>RegistrarProyecto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarZona.xaml.cs">
+      <DependentUpon>RegistrarZona.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.xaml.cs">
+      <DependentUpon>Registro.xaml</DependentUpon>
+    </Compile>
+    <Page Include="BuscarActividad.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BuscarADESCO.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BuscarAdministrador.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BuscarPromotorProyecto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BuscarPromotorZona.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BuscarProyecto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BuscarZona.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FrmReportePromotor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="BuscarActividad.xaml.cs">
+      <DependentUpon>BuscarActividad.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarADESCO.xaml.cs">
+      <DependentUpon>BuscarADESCO.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarAdministrador.xaml.cs">
+      <DependentUpon>BuscarAdministrador.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BuscarPromotorZona.xaml.cs">
+      <DependentUpon>BuscarPromotorZona.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarProyecto.xaml.cs">
+      <DependentUpon>BuscarProyecto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarZona.xaml.cs">
+      <DependentUpon>BuscarZona.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="BuscarMiembros.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BuscarPromotor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PantallaLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PantallaPrincipal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegistrarActividad.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegistrarADESCO.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegistrarAdministrador.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RegistrarMiembroADESCO.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RegistrarPromotor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegistrarPromotorProyecto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegistrarPromotorZona.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegistrarProyecto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegistrarZona.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Registro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Icons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BuscarMiembros.xaml.cs">
+      <DependentUpon>BuscarMiembros.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarPromotor.xaml.cs">
+      <DependentUpon>BuscarPromotor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportePromotor.rdlc" />
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\ProyectoSocial.AccesoADatos.ReportePromotor.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <Resource Include="Resources\Entypo.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoSocial.AccesoADatos\ProyectoSocial.AccesoADatos.csproj">
+      <Project>{d80fc185-7e5a-4d66-bc18-a6aefff30a88}</Project>
+      <Name>ProyectoSocial.AccesoADatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProyectoSocial.LogicadeNegocio\ProyectoSocial.LogicadeNegocio.csproj">
+      <Project>{088734c1-991f-4a74-9d04-afa06456eab6}</Project>
+      <Name>ProyectoSocial.LogicadeNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\WindowsIcons-license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Entypo-license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Nuevo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Consultar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Acajutla.jpg" />
+    <Resource Include="Images\blog 17..png" />
+    <Resource Include="Images\puertoacajutla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\screen off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\AJUSTES %281%29.png" />
+    <Resource Include="Images\ajustes-de-configuracion-del-panel-de-icono-8127-128.png" />
+    <Resource Include="Images\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\docente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\reunion %281%29.png" />
+    <Resource Include="Images\reunion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\288917_cvet_krasnyj_obem_volna_1920x1200_%28www.GdeFon.ru%29.jpg" />
+    <Resource Include="Images\Aries-solicitud-rojo-oscuro.jpg" />
+    <Resource Include="Images\descarga.jpg" />
+    <Resource Include="Images\fffff.jpg" />
+    <Resource Include="Images\Fondo rojo-995046 %281%29.jpg" />
+    <Resource Include="Images\Fondo rojo-995046 %282%29.jpg" />
+    <Resource Include="Images\Fondo rojo-995046.jpg" />
+    <Resource Include="Images\Fondo-de-madera.jpg" />
+    <Resource Include="Images\gggg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ALCAL.png" />
+    <Resource Include="Images\ALCAL2022.png" />
+    <Resource Include="Images\ALCAL4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\fnd_proyectos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Trabajo-en-equipo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\grupos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\humanos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\mision.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\capacitacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\adescoo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\administrador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\adminn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\agrega.png" />
+    <Resource Include="Images\buscar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\acti1.png" />
+    <Resource Include="Images\acti2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\binoculares.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\promoproye.png" />
+    <Resource Include="Images\promozona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\organizacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Salir1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\reporte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\login rojo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
