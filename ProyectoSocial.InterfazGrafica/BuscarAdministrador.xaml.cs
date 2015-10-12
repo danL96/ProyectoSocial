@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-
 using ProyectoSocial.AccesoADatos;
 using ProyectoSocial.LogicadeNegocio;
 
@@ -22,7 +11,8 @@ namespace ProyectoSocial.InterfazGrafica
     /// </summary>
     public partial class BuscarAdministrador
     {
-        AdministradorBL _administradorBL = new AdministradorBL();
+        private readonly AdministradorBL _administradorBl = new AdministradorBL();
+
         public Administradore AdministradorE { get; set; }
 
         public BuscarAdministrador()
@@ -32,15 +22,13 @@ namespace ProyectoSocial.InterfazGrafica
 
         private void MetroWindow_Loaded_1(object sender, RoutedEventArgs e)
         {
-            dgAdministrador.ItemsSource = _administradorBL.ObtenerAdministradores();
+            dgAdministrador.ItemsSource = _administradorBl.ObtenerAdministradores();
         }
 
         private void txtNombreAdministrador_TextChanged(object sender, TextChangedEventArgs e)
         {
-            Administradore _administrador = new Administradore();
-            _administrador.Nombre = txtNombreAdministrador.Text;
-
-            dgAdministrador.ItemsSource = _administradorBL.ObtenerAdministradoresPorNombre(_administrador);
+            var administrador = new Administradore {Nombre = txtNombreAdministrador.Text};
+            dgAdministrador.ItemsSource = _administradorBl.ObtenerAdministradoresPorNombre(administrador);
         }
 
         private void dgAdministrador_MouseDoubleClick(object sender, MouseButtonEventArgs e)

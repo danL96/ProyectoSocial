@@ -28,3 +28,13 @@ C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoS
 C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.csprojResolveAssemblyReference.cache
 C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.dll
 C:\Users\DANIEL\Desktop\Proyecto PRUEBA CASI FINALIZADO\ProyectoSocial\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.pdb
+C:\Proyectos\GitHub\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.LogicadeNegocio.dll.config
+C:\Proyectos\GitHub\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.LogicadeNegocio.dll
+C:\Proyectos\GitHub\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.LogicadeNegocio.pdb
+C:\Proyectos\GitHub\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\EntityFramework.dll
+C:\Proyectos\GitHub\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.AccesoADatos.dll
+C:\Proyectos\GitHub\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\ProyectoSocial.AccesoADatos.pdb
+C:\Proyectos\GitHub\ProyectoSocial\ProyectoSocial.LogicadeNegocio\bin\Debug\EntityFramework.xml
+C:\Proyectos\GitHub\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.csprojResolveAssemblyReference.cache
+C:\Proyectos\GitHub\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.dll
+C:\Proyectos\GitHub\ProyectoSocial\ProyectoSocial.LogicadeNegocio\obj\Debug\ProyectoSocial.LogicadeNegocio.pdb

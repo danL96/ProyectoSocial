@@ -1,17 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-
 using ProyectoSocial.AccesoADatos;
 using ProyectoSocial.LogicadeNegocio;
 
@@ -22,9 +10,7 @@ namespace ProyectoSocial.InterfazGrafica
     /// </summary>
     public partial class RegistrarAdministrador
     {
-        
-        AdministradorBL _administradorBL = new AdministradorBL();
-        Administradore _administradorEntity = new Administradore();
+        readonly AdministradorBL _administradorBl = new AdministradorBL();
 
         public RegistrarAdministrador()
         {
@@ -33,11 +19,9 @@ namespace ProyectoSocial.InterfazGrafica
 
         private void btnSalir_Click(object sender, RoutedEventArgs e)
         {
-            string salir = Convert.ToString(MessageBox.Show("Está seguro que desea salir", "Advertencia", MessageBoxButton.YesNo, MessageBoxImage.Question));
-            if (salir == "Yes")
-            {
-                this.Close();
-            }
+            var result = MessageBox.Show("Está seguro que desea salir", "Advertencia", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+            if (result == MessageBoxResult.Yes) Close();
         }
 
         private void Actualizar()
@@ -92,55 +76,24 @@ namespace ProyectoSocial.InterfazGrafica
         {
             try
             {
-                if (txtNombre.Text == string.Empty)
-                {
-                    MessageBox.Show("Llene el campo nombre");
-                }
-                if (txtApellido.Text == string.Empty)
-                {
-                    MessageBox.Show("Llene el campo apellido");
-                }
-                if (txtNick.Text == string.Empty)
-                {
-                    MessageBox.Show("Llene el campo de Nick");
-                }
-                if (txtPass.Password == string.Empty)
-                {
-                    MessageBox.Show("Llene el campo password");
-                }
-                if (txtConfirmarpass.Password == string.Empty)
-                {
-                    MessageBox.Show("Llene el campo confirmar contraseña");
-                }
-                if (!(txtPass.Password == txtConfirmarpass.Password))
-                {
-                    MessageBox.Show("No coinciden los campos contraseña y confirmar contraseña", "Vuelva a intentar", MessageBoxButton.OK, MessageBoxImage.Exclamation);
-                }
-                else
-                {
+                if (!Validate()) return;
 
+                var administrador = new Administradore
+                {
+                    Nombre = txtNombre.Text,
+                    Apellido = txtApellido.Text,
+                    Nick = txtNick.Text,
+                    Pass = Utilidades.EncriptarClave(txtPass.Password),
+                    Confirmar = Utilidades.EncriptarClave(txtConfirmarpass.Password)
+                };
 
-                    if (!(txtNombre.Text == string.Empty || txtApellido.Text == string.Empty || txtNick.Text == string.Empty || txtPass.Password == string.Empty || txtConfirmarpass.Password == string.Empty))
-                    {
-                        Administradore _administrador = new Administradore();
-                        _administrador.Nombre = txtNombre.Text;
-                        _administrador.Apellido = txtApellido.Text;
-                        _administrador.Nick = txtNick.Text;
-                        _administrador.Pass = Utilidades.EncriptarClave(txtPass.Password);
-                        _administrador.Confirmar = Utilidades.EncriptarClave(txtConfirmarpass.Password);
-
-                        if (_administradorBL.AgregarAdministradores(_administrador) > 0)
-                        {
-                            MessageBox.Show("El registro se agregó correctamente");
-                        }
-                        //else
-                        //{
-                        //    MessageBox.Show("El registro no se pudo guardar");
-                        //}
-
-                        Actualizar();
-                    }
+                if (_administradorBl.AgregarAdministradores(administrador) > 0)
+                {
+                    MessageBox.Show("El registro se agregó correctamente");
                 }
+
+                Actualizar();
+
             }
             catch (Exception ex)
             {
@@ -152,132 +105,132 @@ namespace ProyectoSocial.InterfazGrafica
         {
             try
             {
-                if (txtNombre.Text == string.Empty)
-                {
-                    MessageBox.Show("Llene el campo nombre");
-                }
-                if (txtApellido.Text == string.Empty)
-                {
-                    MessageBox.Show("Llene el campo apellido");
-                }
-                if (txtNick.Text == string.Empty)
-                {
-                    MessageBox.Show("Llene el campo de Nick");
-                }
-                if (txtPass.Password == string.Empty)
-                {
-                    MessageBox.Show("Llene el campo password");
-                }
-                //if (txtConfirmarpass.Password == string.Empty)
-                //{
-                //    MessageBox.Show("Llene el campo confirmar contraseña");
-                //}
-                //if (!(txtPass.Password == txtConfirmarpass.Password))
-                //{
-                //    MessageBox.Show("No coinciden los campos contraseña y confirmar contraseña", "Vuelva a intentar", MessageBoxButton.OK, MessageBoxImage.Exclamation);
-                //}
-                else
-                {
-                    if (!(txtNombre.Text == string.Empty || txtApellido.Text == string.Empty || txtNick.Text == string.Empty || txtPass.Password == string.Empty))
-                    {
-                        Administradore _administrador = new Administradore();
-                        _administradorEntity.Id = Convert.ToInt64(txtId.Text);
-                        _administradorEntity.Nombre = txtNombre.Text;
-                        _administradorEntity.Apellido = txtApellido.Text;
-                        _administradorEntity.Nick = txtNick.Text;
-                        _administradorEntity.Pass = Utilidades.EncriptarClave(txtPass.Password);
+                if (!Validate()) return;
 
-                        //_administrador.Confirmar = Utilidades.EncriptarClave(txtConfirmarpass.Password);
+                var administrador = new Administradore
+                {
+                    Id = Convert.ToInt64(txtId.Text),
+                    Nombre = txtNombre.Text,
+                    Apellido = txtApellido.Text,
+                    Nick = txtNick.Text,
+                    Pass = Utilidades.EncriptarClave(txtPass.Password)
+                };
 
-                        if (_administradorBL.ModificarAdministradores(_administradorEntity) > 0)
-                        {
-                            MessageBox.Show("El registro se modificó correctamente");
-                        }
-                        //else
-                        //{
-                        //    MessageBox.Show("El registro no se pudo modificar");
-                        //}
 
-                        Actualizar();
-                    }
+                if (_administradorBl.ModificarAdministradores(administrador) > 0)
+                {
+                    MessageBox.Show("El registro se modificó correctamente");
                 }
+
+                Actualizar();
 
             }
             catch (Exception ex)
             {
-                MessageBox.Show("No seleccione los últimos datos de la lista(están vacios) o pueda que se guarden pero no es recomendable\n" + "Advertencia" + ex.Message);
+                MessageBox.Show("No se pudo modificar el registro\n" + "Advertencia" + ex.Message);
             }
         }
 
-        private void btnEliminar_Click(object sender, RoutedEventArgs e)
+        private bool Validate()
+        {
+            var msgError = string.Empty;
+
+            if (txtNombre.Text == string.Empty)
             {
-                try
+                msgError = "Llene el campo nombre";
+            }
+            if (txtApellido.Text == string.Empty)
+            {
+                msgError = "Llene el campo apellido";
+            }
+            if (txtNick.Text == string.Empty)
+            {
+                msgError = "Llene el campo de Nick";
+            }
+            if (txtPass.Password == string.Empty)
+            {
+                msgError = "Llene el campo password";
+            }
+
+            if (txtConfirmarpass.Visibility == Visibility.Visible)
+            {
+                if (txtConfirmarpass.Password == string.Empty)
                 {
-
-                    if (MessageBox.Show("Está seguro que desea eliminar", "Advertencia", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.No) { }
-                    else
-                    {
-                        _administradorEntity.Id = Convert.ToInt64(txtId.Text);
-                        _administradorEntity.Nombre = txtNombre.Text;
-                        _administradorEntity.Apellido = txtApellido.Text;
-                        _administradorEntity.Nick = txtNick.Text;
-                        _administradorEntity.Pass = Utilidades.EncriptarClave(txtPass.Password);
-                        _administradorEntity.Confirmar = Utilidades.EncriptarClave(txtConfirmarpass.Password);
-                        if (_administradorBL.EliminarAdministradores(_administradorEntity) > 0)
-                        {
-
-                            MessageBox.Show("El registro se eliminó con éxito");
-                            Actualizar();
-
-
-                        }
-                        //else { }
-                        //{
-                        //    MessageBox.Show("El registro no se pudo eliminar");
-                        //}
-                    }
+                    msgError = "Llene el campo confirmar contraseña";
                 }
-                catch (Exception ex)
+                if (txtPass.Password != txtConfirmarpass.Password)
                 {
-                    MessageBox.Show("Lo sentimos, algo ocurrió mal, puede que se eliminen los datos pero no es recomendable" + "Advertencia" + ex.Message);
+                    msgError = "No coinciden los campos contraseña y confirmar contraseña";
                 }
             }
-        
+
+            if (string.IsNullOrEmpty(msgError)) return true;
+
+            MessageBox.Show(msgError, "Vuelva a intentar", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+            return false;
+
+        }
+
+        private void btnEliminar_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var confirmDelete = MessageBox.Show("Está seguro que desea eliminar", "Advertencia", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes;
+
+                if (!confirmDelete) return;
+
+                var administrador = new Administradore
+                {
+                    Id = Convert.ToInt64(txtId.Text),
+                    Nombre = txtNombre.Text,
+                    Apellido = txtApellido.Text,
+                    Nick = txtNick.Text,
+                    Pass = Utilidades.EncriptarClave(txtPass.Password),
+                    Confirmar = Utilidades.EncriptarClave(txtConfirmarpass.Password)
+                };
+
+                if (_administradorBl.EliminarAdministradores(administrador) > 0)
+                {
+                    MessageBox.Show("El registro se eliminó con éxito");
+                    Actualizar();
+                }
+
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lo sentimos, algo ocurrió mal, no se pudo realizar la operación" + "Advertencia" + ex.Message);
+            }
+        }
+
 
         private void btnConsultar_Click(object sender, RoutedEventArgs e)
         {
             txtConfirmarpass.Visibility = Visibility.Hidden;
             lbConfirmar.Visibility = Visibility.Hidden;
-            try
-            {
-                BuscarAdministrador _bus = new BuscarAdministrador();
-                _bus.ShowDialog();
 
-                _administradorEntity = _bus.AdministradorE;
-                txtId.Text = _administradorEntity.Id.ToString();
-                txtNombre.Text = _administradorEntity.Nombre;
-                txtApellido.Text = _administradorEntity.Apellido;
-                txtNick.Text = _administradorEntity.Nick;
-                txtPass.Password = _administradorEntity.Pass;
-                //txtPass.Clear();
-                txtConfirmarpass.Password = _administradorEntity.Confirmar;
-                //txtConfirmarpass.Clear();
+            var bus = new BuscarAdministrador();
+            bus.ShowDialog();
 
-                txtNombre.IsEnabled = true;
-                txtApellido.IsEnabled = true;
-                txtNick.IsEnabled = true;
-                txtPass.IsEnabled = true;
-                txtConfirmarpass.IsEnabled = true;
-                btnNuevo.IsEnabled = false;
-                btnGuardar.IsEnabled = false;
-                btnModificar.IsEnabled = true;
-                btnEliminar.IsEnabled = true;
-                btnConsultar.IsEnabled = true;
-                btnSalir.IsEnabled = true;
-            }
-            catch
-            {
-            }
+            txtId.Text = bus.AdministradorE.Id.ToString();
+            txtNombre.Text = bus.AdministradorE.Nombre;
+            txtApellido.Text = bus.AdministradorE.Apellido;
+            txtNick.Text = bus.AdministradorE.Nick;
+            txtPass.Password = bus.AdministradorE.Pass;
+            txtConfirmarpass.Password = bus.AdministradorE.Confirmar;
+
+            txtNombre.IsEnabled = true;
+            txtApellido.IsEnabled = true;
+            txtNick.IsEnabled = true;
+            txtPass.IsEnabled = true;
+            txtConfirmarpass.IsEnabled = true;
+            btnNuevo.IsEnabled = false;
+            btnGuardar.IsEnabled = false;
+            btnModificar.IsEnabled = true;
+            btnEliminar.IsEnabled = true;
+            btnConsultar.IsEnabled = true;
+            btnSalir.IsEnabled = true;
+
         }
     }
 }
