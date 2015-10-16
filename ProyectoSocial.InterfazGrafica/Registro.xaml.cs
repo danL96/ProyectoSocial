@@ -22,7 +22,7 @@ namespace ProyectoSocial.InterfazGrafica
     /// </summary>
     public partial class Registro
     {
-        AdministradorBL _administradorBL = new AdministradorBL();
+        AdministradorBl _administradorBL = new AdministradorBl();
         Administradore _administradorEntity = new Administradore();
 
         public Registro()
@@ -79,7 +79,7 @@ namespace ProyectoSocial.InterfazGrafica
                         _administrador.Nick = txtNick.Text;
                         _administrador.Pass = Utilidades.EncriptarClave(txtPass.Password);
                         _administrador.Confirmar = Utilidades.EncriptarClave(txtConfirmarpass.Password);
-                        if (_administradorBL.AgregarAdministradores(_administrador) > 0)
+                        if (_administradorBL.Agregar(_administrador) > 0)
                         {
                             MessageBox.Show("El registro se agregó correctamente");
                             txtNombre.Clear();

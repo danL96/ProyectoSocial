@@ -10,7 +10,7 @@ namespace ProyectoSocial.InterfazGrafica
     /// </summary>
     public partial class RegistrarAdministrador
     {
-        readonly AdministradorBL _administradorBl = new AdministradorBL();
+        readonly AdministradorBl _administradorBl = new AdministradorBl();
 
         public RegistrarAdministrador()
         {
@@ -87,7 +87,7 @@ namespace ProyectoSocial.InterfazGrafica
                     Confirmar = Utilidades.EncriptarClave(txtConfirmarpass.Password)
                 };
 
-                if (_administradorBl.AgregarAdministradores(administrador) > 0)
+                if (_administradorBl.Agregar(administrador) > 0)
                 {
                     MessageBox.Show("El registro se agregó correctamente");
                 }
@@ -117,7 +117,7 @@ namespace ProyectoSocial.InterfazGrafica
                 };
 
 
-                if (_administradorBl.ModificarAdministradores(administrador) > 0)
+                if (_administradorBl.Modificar(administrador) > 0)
                 {
                     MessageBox.Show("El registro se modificó correctamente");
                 }
@@ -189,7 +189,7 @@ namespace ProyectoSocial.InterfazGrafica
                     Confirmar = Utilidades.EncriptarClave(txtConfirmarpass.Password)
                 };
 
-                if (_administradorBl.EliminarAdministradores(administrador) > 0)
+                if (_administradorBl.Eliminar(administrador) > 0)
                 {
                     MessageBox.Show("El registro se eliminó con éxito");
                     Actualizar();

@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-
 using System.Security.Cryptography;
 
 namespace ProyectoSocial.LogicadeNegocio
@@ -11,73 +7,67 @@ namespace ProyectoSocial.LogicadeNegocio
     public class Utilidades
     {
 
-        public static string EncriptarClave(string pClave)
+        private const int LengthBytesExtra = 4;
+
+        public static string EncriptarClave(string clave)
         {
-            string claveEncriptada = "";
+            
+            var bytesExtra = new byte[LengthBytesExtra];
 
-            //Declaración de variables para el proceso
-            int bytesExtra = 4;
-            string claveAEncriptar = pClave;
+            var rng = RandomNumberGenerator.Create();
+            rng.GetNonZeroBytes(bytesExtra);
 
-            //Declaración de un generador de números aleatorios
-            RandomNumberGenerator rng = RandomNumberGenerator.Create();
-
-            //Declaración de un arreglo de bytes para los bytes extra
-            byte[] contenedorBytesExtra = new byte[bytesExtra];
-
-            //Generación de los bytes extra y colocación en el contenedor
-            rng.GetNonZeroBytes(contenedorBytesExtra);
-
-            //Convertir la clave digitada por el usuario a arreglo de bytes
-            byte[] claveBytes = Encoding.UTF8.GetBytes(claveAEncriptar);
+            var claveBytes = Encoding.UTF8.GetBytes(clave);
 
             //Declaración de un arreglo de bytes que contendrá la clave en bytes + los bytes extra
-            byte[] claveMasBytesExtra = new byte[claveBytes.Length + contenedorBytesExtra.Length];
+            var claveMasBytesExtra = new byte[claveBytes.Length + bytesExtra.Length];
 
             //Copiar los bytes extra y la clave al arreglo claveMasBytesExtra
-            Array.Copy(contenedorBytesExtra, 0, claveMasBytesExtra, 0, contenedorBytesExtra.Length);
-            Array.Copy(claveBytes, 0, claveMasBytesExtra, contenedorBytesExtra.Length, claveBytes.Length);
+            Array.Copy(bytesExtra, 0, claveMasBytesExtra, 0, bytesExtra.Length);
+            Array.Copy(claveBytes, 0, claveMasBytesExtra, bytesExtra.Length, claveBytes.Length);
 
             //Creación de la instacia del encriptador mediante Hash
-            SHA1CryptoServiceProvider csp = new SHA1CryptoServiceProvider();
+            var csp = new SHA1CryptoServiceProvider();
 
             //Declarar un arreglo que contendrá la clave encriptada
-            byte[] claveCompletaHash = csp.ComputeHash(claveMasBytesExtra);
+            var claveCompletaHash = csp.ComputeHash(claveMasBytesExtra);
 
             //Declarar un arreglo que contendrá la clave encriptada + los bytes de control
-            byte[] claveFinal = new byte[contenedorBytesExtra.Length + claveCompletaHash.Length];
+            var claveFinal = new byte[bytesExtra.Length + claveCompletaHash.Length];
 
             //Copiar la clave en Hash + los bytes de control al arreglo claveFinal
-            Array.Copy(contenedorBytesExtra, 0, claveFinal, 0, contenedorBytesExtra.Length);
-            Array.Copy(claveCompletaHash, 0, claveFinal, contenedorBytesExtra.Length, claveCompletaHash.Length);
+            Array.Copy(bytesExtra, 0, claveFinal, 0, bytesExtra.Length);
+            Array.Copy(claveCompletaHash, 0, claveFinal, bytesExtra.Length, claveCompletaHash.Length);
 
             //Convertir la clave final a string
-            claveEncriptada = Convert.ToBase64String(claveFinal);
+            var claveEncriptada = Convert.ToBase64String(claveFinal);
 
             return claveEncriptada;
         }
+
+
+        public static string DesencriptarClave(string claveEncriptada)
+        {
+            return "thepassword";
+        }
+
 
         public static bool ValidarClave(string pClaveUsuario, string pClaveEncriptada)
         {
             bool aceptado = false;
 
-            //Declarar variables para el proceso
-            string claveHash = pClaveEncriptada;
-            string claveTecleada = pClaveUsuario;
-            int bytesExtra = 4;
-
             //Convertir la clave en formato Hash a arreglo de bytes
-            byte[] claveHashBytes = Convert.FromBase64String(claveHash);
+            byte[] claveHashBytes = Convert.FromBase64String(pClaveEncriptada);
 
             //Extraer los bytes de control
             int bytesDeControl = BitConverter.ToInt32(claveHashBytes, 0);
 
             //A la clave encriptada le quitamos los primeros 4 bytes
-            byte[] claveSinBytesDeControl = new byte[claveHashBytes.Length - bytesExtra];
-            Array.Copy(claveHashBytes, bytesExtra, claveSinBytesDeControl, 0, claveSinBytesDeControl.Length);
+            byte[] claveSinBytesDeControl = new byte[claveHashBytes.Length - LengthBytesExtra];
+            Array.Copy(claveHashBytes, LengthBytesExtra, claveSinBytesDeControl, 0, claveSinBytesDeControl.Length);
 
             //Convertir la clave digitada por el usuario en la ventana Login a bytes
-            byte[] claveDigitadaBytes = Encoding.UTF8.GetBytes(claveTecleada);
+            byte[] claveDigitadaBytes = Encoding.UTF8.GetBytes(pClaveUsuario);
 
             //Convertir los bytes de control a arreglo de bytes
             byte[] bytesExtraBytes = BitConverter.GetBytes(bytesDeControl);
@@ -103,109 +93,13 @@ namespace ProyectoSocial.LogicadeNegocio
                     aceptado = false;
                     break;
                 }
-                else
-                    aceptado = true;
+
+                aceptado = true;
             }
 
             return aceptado;
         }
-        public string key = "ABCDEFG54669525PQRSTUVWXYZabcdef852846opqrstuvwxyz";
-
-        //ENCRIPTA CONTRASEÑA
-        public string EncryptKey(string cadena)
-        {
-            //arreglo de bytes donde guardaremos la llave
-
-            byte[] keyArray;
-
-            //arreglo de bytes donde guardaremos el texto
-
-            //que vamos a encriptar
-
-            byte[] Arreglo_a_Cifrar = UTF8Encoding.UTF8.GetBytes(cadena);
-
-            //se utilizan las clases de encriptación
-
-            //provistas por el Framework
-
-            //Algoritmo MD5
-
-            MD5CryptoServiceProvider hashmd5 = new MD5CryptoServiceProvider();
-            //se guarda la llave para que se le realice
-
-            //hashing
-            keyArray = hashmd5.ComputeHash(UTF8Encoding.UTF8.GetBytes(key));
-
-            hashmd5.Clear();
-
-            //Algoritmo 3DAS
-
-            TripleDESCryptoServiceProvider tdes = new TripleDESCryptoServiceProvider();
-
-            tdes.Key = keyArray;
-
-            tdes.Mode = CipherMode.ECB;
-
-            tdes.Padding = PaddingMode.PKCS7;
-
-            //se empieza con la transformación de la cadena
-
-            ICryptoTransform cTransform = tdes.CreateEncryptor();
-
-            //arreglo de bytes donde se guarda la
-
-            //cadena cifrada
-
-            byte[] ArrayResultado = cTransform.TransformFinalBlock(Arreglo_a_Cifrar, 0, Arreglo_a_Cifrar.Length);
-
-            tdes.Clear();
-
-            //se regresa el resultado en forma de una cadena
-
-            return Convert.ToBase64String(ArrayResultado, 0, ArrayResultado.Length);
-        }
-
-
-        //DESENCRIPTA CONTRASEÑA
-        public string DecryptKey(string clave)
-        {
-            byte[] keyArray;
-
-            //convierte el texto en una secuencia de bytes
-
-            byte[] Array_a_Descifrar = Convert.FromBase64String(clave);
-
-            //se llama a las clases que tienen los algoritmos
-
-            //de encriptación se le aplica hashing
-
-            //algoritmo MD5
-
-            MD5CryptoServiceProvider hashmd5 = new MD5CryptoServiceProvider();
-
-            keyArray = hashmd5.ComputeHash(UTF8Encoding.UTF8.GetBytes(key));
-
-            hashmd5.Clear();
-
-            TripleDESCryptoServiceProvider tdes = new TripleDESCryptoServiceProvider();
-
-            tdes.Key = keyArray;
-
-            tdes.Mode = CipherMode.ECB;
-
-            tdes.Padding = PaddingMode.PKCS7;
-
-            ICryptoTransform cTransform = tdes.CreateDecryptor();
-
-            byte[] resultArray = cTransform.TransformFinalBlock(Array_a_Descifrar, 0, Array_a_Descifrar.Length);
-
-            tdes.Clear();
-
-            //se regresa en forma de cadena
-
-            return UTF8Encoding.UTF8.GetString(resultArray);
-        }
-        
-        }
-
+       
     }
+
+}

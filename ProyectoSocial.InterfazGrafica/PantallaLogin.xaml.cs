@@ -26,7 +26,7 @@ namespace ProyectoSocial.InterfazGrafica
 
 
         //Instancias bl y acceso a datos
-        AdministradorBL _adminBL = new AdministradorBL();
+        AdministradorBl _adminBL = new AdministradorBl();
         Administradore _adminEntity = new Administradore();
 
         public PantallaLogin()
@@ -86,20 +86,13 @@ namespace ProyectoSocial.InterfazGrafica
         {
             btnRegistro.Visibility = Visibility.Hidden;
 
-            Registro _regis = new Registro();
-            _regis.Show();
+            var regis = new Registro();
+            regis.Show();
         }
 
         private void btnRegistro_Loaded(object sender, RoutedEventArgs e)
         {
-            if (_adminBL.ObtenerAdministradores().Count == 0)
-            {
-                btnRegistro.Visibility = Visibility.Visible;
-            }
-            else
-            {
-                btnRegistro.Visibility = Visibility.Hidden;
-            }
+            btnRegistro.Visibility = _adminBL.ObtenerTodos().Any() ? Visibility.Hidden : Visibility.Visible;
         }
     }
 }

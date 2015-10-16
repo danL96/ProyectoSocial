@@ -11,7 +11,7 @@ namespace ProyectoSocial.InterfazGrafica
     /// </summary>
     public partial class BuscarAdministrador
     {
-        private readonly AdministradorBL _administradorBl = new AdministradorBL();
+        private readonly AdministradorBl _administradorBl = new AdministradorBl();
 
         public Administradore AdministradorE { get; set; }
 
@@ -22,13 +22,13 @@ namespace ProyectoSocial.InterfazGrafica
 
         private void MetroWindow_Loaded_1(object sender, RoutedEventArgs e)
         {
-            dgAdministrador.ItemsSource = _administradorBl.ObtenerAdministradores();
+            dgAdministrador.ItemsSource = _administradorBl.ObtenerTodos();
         }
 
         private void txtNombreAdministrador_TextChanged(object sender, TextChangedEventArgs e)
         {
             var administrador = new Administradore {Nombre = txtNombreAdministrador.Text};
-            dgAdministrador.ItemsSource = _administradorBl.ObtenerAdministradoresPorNombre(administrador);
+            dgAdministrador.ItemsSource = _administradorBl.ObtenerAdministradoresPorNombre(administrador.Nombre);
         }
 
         private void dgAdministrador_MouseDoubleClick(object sender, MouseButtonEventArgs e)

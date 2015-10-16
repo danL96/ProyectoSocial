@@ -1,77 +1,69 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using ProyectoSocial.AccesoADatos;
 
 namespace ProyectoSocial.LogicadeNegocio
 {
-    public class AdministradorBL
+    public interface IAdministradorBl
     {
-        public int AgregarAdministradores(Administradore pAdministradore)
+        int Agregar(Administradore administrador);
+        int Modificar(Administradore administrador);
+        int Eliminar(Administradore administrador);
+        Administradore ObtenerAdministradorPorId(long id);
+        IEnumerable<Administradore> ObtenerAdministradoresPorNombre(string nombre);
+        IEnumerable<Administradore> ObtenerTodos();
+        bool ValidarAcceso(Administradore administrador);
+    }
+
+    public class AdministradorBl : IAdministradorBl
+    {
+        public int Agregar(Administradore administrador)
         {
-            BDComun.Contexto.Administradores.Add(pAdministradore);
+            BDComun.Contexto.Administradores.Add(administrador);
 
             return BDComun.Contexto.SaveChanges();
         }
 
-        public Administradore BuscarAdministradores(Administradore pAdministradore)
+        public int Modificar(Administradore administrador)
         {
-            return BDComun.Contexto.Administradores.SingleOrDefault(c => c.Id == pAdministradore.Id);
-        }
-
-        public int ModificarAdministradores(Administradore pAdministradore)
-        {
-            Administradore tmpAdministradores = BuscarAdministradores(pAdministradore);
-            tmpAdministradores.Id = pAdministradore.Id;
-            tmpAdministradores.Nombre = pAdministradore.Nombre;
-            tmpAdministradores.Apellido = pAdministradore.Apellido;
-            tmpAdministradores.Nick = pAdministradore.Nick;
-            tmpAdministradores.Pass = pAdministradore.Pass;
-            tmpAdministradores.Confirmar = pAdministradore.Confirmar;
+            var admin = ObtenerAdministradorPorId(administrador.Id);
+            admin.Nombre = administrador.Nombre;
+            admin.Apellido = administrador.Apellido;
+            admin.Nick = administrador.Nick;
+            admin.Pass = administrador.Pass;
+            admin.Confirmar = administrador.Confirmar;
 
             return BDComun.Contexto.SaveChanges();
         }
 
-        public int EliminarAdministradores(Administradore pAdministradore)
+        public int Eliminar(Administradore administrador)
         {
-            Administradore tmpAdministradores = BuscarAdministradores(pAdministradore);
+            var admin = ObtenerAdministradorPorId(administrador.Id);
 
-            BDComun.Contexto.Administradores.Remove(tmpAdministradores);
+            BDComun.Contexto.Administradores.Remove(admin);
             return BDComun.Contexto.SaveChanges();
         }
 
-        public List<Administradore> ObtenerAdministradores()
+        public Administradore ObtenerAdministradorPorId(long id)
+        {
+            return ObtenerTodos().FirstOrDefault(a => a.Id == id);
+        }
+
+        public IEnumerable<Administradore> ObtenerAdministradoresPorNombre(string nombre)
+        {
+            return ObtenerTodos().Where(c => c.Nombre.Contains(nombre)).ToList();
+        }
+
+        public IEnumerable<Administradore> ObtenerTodos()
         {
             return BDComun.Contexto.Administradores.ToList();
         }
 
-        public List<Administradore> ObtenerAdministradoresPorNombre(Administradore pAdministradore)
+        public bool ValidarAcceso(Administradore administrador)
         {
-            return BDComun.Contexto.Administradores.Where(c => c.Nombre.Contains(pAdministradore.Nombre)).ToList();
-        }
-        public bool ValidarAcceso(Administradore pAdministrador)
-        {
-            bool Aceptado = false;
-            string claveBD = "";
+            var usuario = ObtenerTodos().FirstOrDefault(u => u.Nick == administrador.Nick);
 
-            var usuario = BDComun.Contexto.Administradores.SingleOrDefault(u => u.Nick == pAdministrador.Nick);
-
-            if (usuario != null)
-            {
-                claveBD = usuario.Pass;
-
-                if (Utilidades.ValidarClave(pAdministrador.Pass, claveBD))
-                    Aceptado = true;
-                else
-                    Aceptado = false;
-            }
-            else
-                Aceptado = false;
-
-            return Aceptado;
+            return usuario != null && Utilidades.ValidarClave(administrador.Pass, usuario.Pass);
         }
     }
 }
