@@ -26,11 +26,8 @@ namespace ProyectoSocial.InterfazGrafica
 
 
         //Instancias bl y acceso a datos
-<<<<<<< HEAD
-        AdministradorBL _adminBL = new AdministradorBL();
-=======
         AdministradorBl _adminBL = new AdministradorBl();
->>>>>>> Modificaciones-Pablo
+
         Administradore _adminEntity = new Administradore();
 
         public PantallaLogin()
@@ -59,16 +56,8 @@ namespace ProyectoSocial.InterfazGrafica
 
             if (!(txtNick.Text == string.Empty || pwPass.Password == string.Empty))
             {
-<<<<<<< HEAD
-                Administradore _administrador = new Administradore();
-                _administrador.Nick = txtNick.Text;
-                _administrador.Pass = pwPass.Password;
-
-                if (_adminBL.ValidarAcceso(_administrador))
-=======
 
                 if (_adminBL.ValidarAcceso(txtNick.Text ,pwPass.Password))
->>>>>>> Modificaciones-Pablo
                 {
                     Aceptado = true;
                     DialogResult = true;
@@ -95,29 +84,14 @@ namespace ProyectoSocial.InterfazGrafica
         {
             btnRegistro.Visibility = Visibility.Hidden;
 
-<<<<<<< HEAD
-            Registro _regis = new Registro();
-            _regis.Show();
-=======
             var regis = new Registro();
             regis.Show();
->>>>>>> Modificaciones-Pablo
+
         }
 
         private void btnRegistro_Loaded(object sender, RoutedEventArgs e)
         {
-<<<<<<< HEAD
-            if (_adminBL.ObtenerAdministradores().Count == 0)
-            {
-                btnRegistro.Visibility = Visibility.Visible;
-            }
-            else
-            {
-                btnRegistro.Visibility = Visibility.Hidden;
-            }
-=======
             btnRegistro.Visibility = _adminBL.ObtenerTodos().Any() ? Visibility.Hidden : Visibility.Visible;
->>>>>>> Modificaciones-Pablo
         }
     }
 }

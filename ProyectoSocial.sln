@@ -1,12 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-<<<<<<< HEAD
-# Visual Studio 2012
-=======
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
->>>>>>> Modificaciones-Pablo
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoSocial.AccesoADatos", "ProyectoSocial.AccesoADatos\ProyectoSocial.AccesoADatos.csproj", "{D80FC185-7E5A-4D66-BC18-A6AEFFF30A88}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoSocial.LogicadeNegocio", "ProyectoSocial.LogicadeNegocio\ProyectoSocial.LogicadeNegocio.csproj", "{088734C1-991F-4A74-9D04-AFA06456EAB6}"
@@ -15,11 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoSocial.InterfazGraf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebasUnitarias.ProyectoSocial", "PruebasUnitarias.ProyectoSocial\PruebasUnitarias.ProyectoSocial.csproj", "{72F20A28-FB3B-45A8-9930-DFB5BA4A3BA1}"
 EndProject
-<<<<<<< HEAD
-Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Instalador", "Instalador\Instalador.isproj", "{C2E3CF59-AAB5-4D7F-9C00-ACD913CD4882}"
-EndProject
-=======
->>>>>>> Modificaciones-Pablo
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CD_ROM|Any CPU = CD_ROM|Any CPU
@@ -69,19 +60,6 @@ Global
 		{72F20A28-FB3B-45A8-9930-DFB5BA4A3BA1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{72F20A28-FB3B-45A8-9930-DFB5BA4A3BA1}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{72F20A28-FB3B-45A8-9930-DFB5BA4A3BA1}.SingleImage|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
-		{C2E3CF59-AAB5-4D7F-9C00-ACD913CD4882}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
-		{C2E3CF59-AAB5-4D7F-9C00-ACD913CD4882}.CD_ROM|Any CPU.Build.0 = CD_ROM
-		{C2E3CF59-AAB5-4D7F-9C00-ACD913CD4882}.Debug|Any CPU.ActiveCfg = DVD-5
-		{C2E3CF59-AAB5-4D7F-9C00-ACD913CD4882}.Debug|Any CPU.Build.0 = DVD-5
-		{C2E3CF59-AAB5-4D7F-9C00-ACD913CD4882}.DVD-5|Any CPU.ActiveCfg = DVD-5
-		{C2E3CF59-AAB5-4D7F-9C00-ACD913CD4882}.DVD-5|Any CPU.Build.0 = DVD-5
-		{C2E3CF59-AAB5-4D7F-9C00-ACD913CD4882}.Release|Any CPU.ActiveCfg = SingleImage
-		{C2E3CF59-AAB5-4D7F-9C00-ACD913CD4882}.Release|Any CPU.Build.0 = SingleImage
-		{C2E3CF59-AAB5-4D7F-9C00-ACD913CD4882}.SingleImage|Any CPU.ActiveCfg = SingleImage
-		{C2E3CF59-AAB5-4D7F-9C00-ACD913CD4882}.SingleImage|Any CPU.Build.0 = SingleImage
-=======
->>>>>>> Modificaciones-Pablo
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
