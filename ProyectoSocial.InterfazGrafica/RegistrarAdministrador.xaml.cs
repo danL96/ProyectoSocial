@@ -5,12 +5,11 @@ using ProyectoSocial.LogicadeNegocio;
 
 namespace ProyectoSocial.InterfazGrafica
 {
-    /// <summary>
-    /// Lógica de interacción para RegistrarAdministrador.xaml
-    /// </summary>
+
     public partial class RegistrarAdministrador
     {
         readonly AdministradorBl _administradorBl = new AdministradorBl();
+        private readonly ProyectoSocialEncrypter _encrypter = new ProyectoSocialEncrypter();
 
         public RegistrarAdministrador()
         {
@@ -83,8 +82,8 @@ namespace ProyectoSocial.InterfazGrafica
                     Nombre = txtNombre.Text,
                     Apellido = txtApellido.Text,
                     Nick = txtNick.Text,
-                    Pass = Utilidades.EncriptarClave(txtPass.Password),
-                    Confirmar = Utilidades.EncriptarClave(txtConfirmarpass.Password)
+                    Pass = _encrypter.EncryptString(txtPass.Password),
+                    Confirmar = _encrypter.EncryptString(txtPass.Password)
                 };
 
                 if (_administradorBl.Agregar(administrador) > 0)
@@ -113,7 +112,8 @@ namespace ProyectoSocial.InterfazGrafica
                     Nombre = txtNombre.Text,
                     Apellido = txtApellido.Text,
                     Nick = txtNick.Text,
-                    Pass = Utilidades.EncriptarClave(txtPass.Password)
+                    Pass = _encrypter.EncryptString(txtPass.Password),
+                    Confirmar = _encrypter.EncryptString(txtPass.Password)
                 };
 
 
@@ -185,8 +185,8 @@ namespace ProyectoSocial.InterfazGrafica
                     Nombre = txtNombre.Text,
                     Apellido = txtApellido.Text,
                     Nick = txtNick.Text,
-                    Pass = Utilidades.EncriptarClave(txtPass.Password),
-                    Confirmar = Utilidades.EncriptarClave(txtConfirmarpass.Password)
+                    Pass = _encrypter.EncryptString(txtPass.Password),
+                    Confirmar = _encrypter.EncryptString(txtPass.Password)
                 };
 
                 if (_administradorBl.Eliminar(administrador) > 0)
@@ -212,12 +212,12 @@ namespace ProyectoSocial.InterfazGrafica
             var bus = new BuscarAdministrador();
             bus.ShowDialog();
 
-            txtId.Text = bus.AdministradorE.Id.ToString();
-            txtNombre.Text = bus.AdministradorE.Nombre;
-            txtApellido.Text = bus.AdministradorE.Apellido;
-            txtNick.Text = bus.AdministradorE.Nick;
-            txtPass.Password = bus.AdministradorE.Pass;
-            txtConfirmarpass.Password = bus.AdministradorE.Confirmar;
+            txtId.Text = bus.Administrador.Id.ToString();
+            txtNombre.Text = bus.Administrador.Nombre;
+            txtApellido.Text = bus.Administrador.Apellido;
+            txtNick.Text = bus.Administrador.Nick;
+            txtPass.Password = bus.Administrador.Pass;
+            txtConfirmarpass.Password = bus.Administrador.Pass;
 
             txtNombre.IsEnabled = true;
             txtApellido.IsEnabled = true;

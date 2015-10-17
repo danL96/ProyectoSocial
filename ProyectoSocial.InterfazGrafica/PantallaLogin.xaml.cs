@@ -55,11 +55,8 @@ namespace ProyectoSocial.InterfazGrafica
 
             if (!(txtNick.Text == string.Empty || pwPass.Password == string.Empty))
             {
-                Administradore _administrador = new Administradore();
-                _administrador.Nick = txtNick.Text;
-                _administrador.Pass = pwPass.Password;
 
-                if (_adminBL.ValidarAcceso(_administrador))
+                if (_adminBL.ValidarAcceso(txtNick.Text ,pwPass.Password))
                 {
                     Aceptado = true;
                     DialogResult = true;

@@ -33,11 +33,11 @@
         <DataGrid Name="dgAdministrador" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="63,163,0,0" VerticalAlignment="Top" Height="208" Width="580" MouseDoubleClick="dgAdministrador_MouseDoubleClick">
 
             <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding Path=Id}" Header="Código" Width="auto"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding Path=Nombre}" Header="Nombre" Width="auto"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding Path=Apellido}" Header="Apellido" Width="auto"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding Path=Nick}" Header="Nick" Width="auto"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding Path=Pass}" Header="Contraseña" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Id, Mode=OneWay}" Header="Código" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Nombre, Mode=OneWay}" Header="Nombre" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Apellido, Mode=OneWay}" Header="Apellido" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Nick, Mode=OneWay}" Header="Nick" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Pass, Mode=OneWay}" Header="Contraseña" Width="auto"></DataGridTextColumn>
             </DataGrid.Columns>
 
         </DataGrid>

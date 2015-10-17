@@ -71,8 +71,8 @@ namespace ProyectoSocial.InterfazGrafica
         //Boton Registro Administrador
         private void MenuItem_Click_4(object sender, RoutedEventArgs e)
         {
-            RegistrarAdministrador _adm = new RegistrarAdministrador();
-            _adm.ShowDialog();
+            RegistrarAdministrador adm = new RegistrarAdministrador();
+            adm.ShowDialog();
 
         }
 
@@ -80,8 +80,8 @@ namespace ProyectoSocial.InterfazGrafica
         //Boton Registro Admin
         private void MenuItem_Click_5(object sender, RoutedEventArgs e)
         {
-            BuscarAdministrador _admi = new BuscarAdministrador();
-            _admi.ShowDialog();
+            var admi = new BuscarAdministrador();
+            admi.ShowDialog();
 
         }
 

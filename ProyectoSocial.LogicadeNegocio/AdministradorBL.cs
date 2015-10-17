@@ -12,7 +12,7 @@ namespace ProyectoSocial.LogicadeNegocio
         Administradore ObtenerAdministradorPorId(long id);
         IEnumerable<Administradore> ObtenerAdministradoresPorNombre(string nombre);
         IEnumerable<Administradore> ObtenerTodos();
-        bool ValidarAcceso(Administradore administrador);
+        bool ValidarAcceso(string userName, string password);
     }
 
     public class AdministradorBl : IAdministradorBl
@@ -59,11 +59,17 @@ namespace ProyectoSocial.LogicadeNegocio
             return BDComun.Contexto.Administradores.ToList();
         }
 
-        public bool ValidarAcceso(Administradore administrador)
+        public bool ValidarAcceso(string userName, string password)
         {
-            var usuario = ObtenerTodos().FirstOrDefault(u => u.Nick == administrador.Nick);
+            var usuario = ObtenerTodos().FirstOrDefault(u => u.Nick == userName);
 
-            return usuario != null && Utilidades.ValidarClave(administrador.Pass, usuario.Pass);
+            if (usuario == null) return false;
+
+            var pse = new ProyectoSocialEncrypter();
+
+            var decryptedPassword = pse.DecryptString(usuario.Pass);
+
+            return password == decryptedPassword;
         }
     }
 }

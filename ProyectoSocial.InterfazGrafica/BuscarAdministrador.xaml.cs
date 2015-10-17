@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.Linq;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using ProyectoSocial.AccesoADatos;
@@ -13,7 +14,7 @@ namespace ProyectoSocial.InterfazGrafica
     {
         private readonly AdministradorBl _administradorBl = new AdministradorBl();
 
-        public Administradore AdministradorE { get; set; }
+        public AdministradorViewModel Administrador { get; set; }
 
         public BuscarAdministrador()
         {
@@ -22,7 +23,7 @@ namespace ProyectoSocial.InterfazGrafica
 
         private void MetroWindow_Loaded_1(object sender, RoutedEventArgs e)
         {
-            dgAdministrador.ItemsSource = _administradorBl.ObtenerTodos();
+            dgAdministrador.ItemsSource = _administradorBl.ObtenerTodos().Select(a => new AdministradorViewModel(a));
         }
 
         private void txtNombreAdministrador_TextChanged(object sender, TextChangedEventArgs e)
@@ -33,7 +34,11 @@ namespace ProyectoSocial.InterfazGrafica
 
         private void dgAdministrador_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            AdministradorE = dgAdministrador.SelectedItem as Administradore;
+            var adminViewModel = dgAdministrador.SelectedItem as AdministradorViewModel;
+            if (adminViewModel != null)
+            {
+                Administrador = adminViewModel;
+            }
             DialogResult = true;
         }
     }
