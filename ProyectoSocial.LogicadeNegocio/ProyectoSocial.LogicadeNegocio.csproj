@@ -51,14 +51,22 @@
     <Compile Include="ActividadBL.cs" />
     <Compile Include="ADESCOBL.cs" />
     <Compile Include="AdministradorBL.cs" />
+<<<<<<< HEAD
     <Compile Include="Desencriptar.cs" />
+=======
+>>>>>>> Modificaciones-Pablo
     <Compile Include="MiembrosADESCOSBL.cs" />
     <Compile Include="PromotorBL.cs" />
     <Compile Include="PromotorProyectoBL.cs" />
     <Compile Include="PromotorZonaBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProyectoBL.cs" />
+<<<<<<< HEAD
     <Compile Include="Utilidades.cs" />
+=======
+    <Compile Include="ProyectoSocialException.cs" />
+    <Compile Include="ProyectoSocialEncrypter.cs" />
+>>>>>>> Modificaciones-Pablo
     <Compile Include="ZonaBL.cs" />
   </ItemGroup>
   <ItemGroup>

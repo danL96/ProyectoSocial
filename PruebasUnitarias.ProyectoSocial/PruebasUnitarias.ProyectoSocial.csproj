@@ -42,6 +42,13 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Reference Include="Moq, Version=4.2.1507.118, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\packages\Moq.4.2.1507.0118\lib\net40\Moq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+>>>>>>> Modificaciones-Pablo
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -55,13 +62,23 @@
     </When>
     <Otherwise>
       <ItemGroup>
+<<<<<<< HEAD
         <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+=======
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
+>>>>>>> Modificaciones-Pablo
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
     <Compile Include="DataConexion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="ProyectoSocialEncrypterTests.cs" />
+>>>>>>> Modificaciones-Pablo
     <Compile Include="UnitTestActividad.cs" />
     <Compile Include="UnitTestADESCOS.cs" />
     <Compile Include="UnitTestAdministrador.cs" />
@@ -79,6 +96,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
+<<<<<<< HEAD
+=======
+    <None Include="packages.config" />
+>>>>>>> Modificaciones-Pablo
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

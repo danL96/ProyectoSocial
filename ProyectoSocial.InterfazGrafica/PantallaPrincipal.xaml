@@ -92,7 +92,11 @@
 
                 </MenuItem>
 
+<<<<<<< HEAD
                 <MenuItem Header="Formularios" Margin=" 10,10"  Foreground="White" FontSize="30" Width="260" Height="65" Click="MenuItem_Click_23">
+=======
+                <MenuItem Header="Formularios" Margin=" 10,10"  Foreground="White" FontSize="30" Width="260" Height="65" >
+>>>>>>> Modificaciones-Pablo
                     <MenuItem.Effect>
                         <DropShadowEffect/>
                     </MenuItem.Effect>

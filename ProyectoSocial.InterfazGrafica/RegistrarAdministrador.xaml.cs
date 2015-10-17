@@ -1,4 +1,5 @@
 ﻿using System;
+<<<<<<< HEAD
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,11 +13,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+=======
+using System.Windows;
+>>>>>>> Modificaciones-Pablo
 using ProyectoSocial.AccesoADatos;
 using ProyectoSocial.LogicadeNegocio;
 
 namespace ProyectoSocial.InterfazGrafica
 {
+<<<<<<< HEAD
     /// <summary>
     /// Lógica de interacción para RegistrarAdministrador.xaml
     /// </summary>
@@ -25,6 +30,13 @@ namespace ProyectoSocial.InterfazGrafica
         
         AdministradorBL _administradorBL = new AdministradorBL();
         Administradore _administradorEntity = new Administradore();
+=======
+
+    public partial class RegistrarAdministrador
+    {
+        readonly AdministradorBl _administradorBl = new AdministradorBl();
+        private readonly ProyectoSocialEncrypter _encrypter = new ProyectoSocialEncrypter();
+>>>>>>> Modificaciones-Pablo
 
         public RegistrarAdministrador()
         {
@@ -33,11 +45,17 @@ namespace ProyectoSocial.InterfazGrafica
 
         private void btnSalir_Click(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
             string salir = Convert.ToString(MessageBox.Show("Está seguro que desea salir", "Advertencia", MessageBoxButton.YesNo, MessageBoxImage.Question));
             if (salir == "Yes")
             {
                 this.Close();
             }
+=======
+            var result = MessageBox.Show("Está seguro que desea salir", "Advertencia", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+            if (result == MessageBoxResult.Yes) Close();
+>>>>>>> Modificaciones-Pablo
         }
 
         private void Actualizar()
@@ -92,6 +110,7 @@ namespace ProyectoSocial.InterfazGrafica
         {
             try
             {
+<<<<<<< HEAD
                 if (txtNombre.Text == string.Empty)
                 {
                     MessageBox.Show("Llene el campo nombre");
@@ -141,6 +160,26 @@ namespace ProyectoSocial.InterfazGrafica
                         Actualizar();
                     }
                 }
+=======
+                if (!Validate()) return;
+
+                var administrador = new Administradore
+                {
+                    Nombre = txtNombre.Text,
+                    Apellido = txtApellido.Text,
+                    Nick = txtNick.Text,
+                    Pass = _encrypter.EncryptString(txtPass.Password),
+                    Confirmar = _encrypter.EncryptString(txtPass.Password)
+                };
+
+                if (_administradorBl.Agregar(administrador) > 0)
+                {
+                    MessageBox.Show("El registro se agregó correctamente");
+                }
+
+                Actualizar();
+
+>>>>>>> Modificaciones-Pablo
             }
             catch (Exception ex)
             {
@@ -152,6 +191,7 @@ namespace ProyectoSocial.InterfazGrafica
         {
             try
             {
+<<<<<<< HEAD
                 if (txtNombre.Text == string.Empty)
                 {
                     MessageBox.Show("Llene el campo nombre");
@@ -279,5 +319,135 @@ namespace ProyectoSocial.InterfazGrafica
             {
             }
         }
+=======
+                if (!Validate()) return;
+
+                var administrador = new Administradore
+                {
+                    Id = Convert.ToInt64(txtId.Text),
+                    Nombre = txtNombre.Text,
+                    Apellido = txtApellido.Text,
+                    Nick = txtNick.Text,
+                    Pass = _encrypter.EncryptString(txtPass.Password),
+                    Confirmar = _encrypter.EncryptString(txtPass.Password)
+                };
+
+
+                if (_administradorBl.Modificar(administrador) > 0)
+                {
+                    MessageBox.Show("El registro se modificó correctamente");
+                }
+
+                Actualizar();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("No se pudo modificar el registro\n" + "Advertencia" + ex.Message);
+            }
+        }
+
+        private bool Validate()
+        {
+            var msgError = string.Empty;
+
+            if (txtNombre.Text == string.Empty)
+            {
+                msgError = "Llene el campo nombre";
+            }
+            if (txtApellido.Text == string.Empty)
+            {
+                msgError = "Llene el campo apellido";
+            }
+            if (txtNick.Text == string.Empty)
+            {
+                msgError = "Llene el campo de Nick";
+            }
+            if (txtPass.Password == string.Empty)
+            {
+                msgError = "Llene el campo password";
+            }
+
+            if (txtConfirmarpass.Visibility == Visibility.Visible)
+            {
+                if (txtConfirmarpass.Password == string.Empty)
+                {
+                    msgError = "Llene el campo confirmar contraseña";
+                }
+                if (txtPass.Password != txtConfirmarpass.Password)
+                {
+                    msgError = "No coinciden los campos contraseña y confirmar contraseña";
+                }
+            }
+
+            if (string.IsNullOrEmpty(msgError)) return true;
+
+            MessageBox.Show(msgError, "Vuelva a intentar", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+            return false;
+
+        }
+
+        private void btnEliminar_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var confirmDelete = MessageBox.Show("Está seguro que desea eliminar", "Advertencia", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes;
+
+                if (!confirmDelete) return;
+
+                var administrador = new Administradore
+                {
+                    Id = Convert.ToInt64(txtId.Text),
+                    Nombre = txtNombre.Text,
+                    Apellido = txtApellido.Text,
+                    Nick = txtNick.Text,
+                    Pass = _encrypter.EncryptString(txtPass.Password),
+                    Confirmar = _encrypter.EncryptString(txtPass.Password)
+                };
+
+                if (_administradorBl.Eliminar(administrador) > 0)
+                {
+                    MessageBox.Show("El registro se eliminó con éxito");
+                    Actualizar();
+                }
+
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lo sentimos, algo ocurrió mal, no se pudo realizar la operación" + "Advertencia" + ex.Message);
+            }
+        }
+
+
+        private void btnConsultar_Click(object sender, RoutedEventArgs e)
+        {
+            txtConfirmarpass.Visibility = Visibility.Hidden;
+            lbConfirmar.Visibility = Visibility.Hidden;
+
+            var bus = new BuscarAdministrador();
+            bus.ShowDialog();
+
+            txtId.Text = bus.Administrador.Id.ToString();
+            txtNombre.Text = bus.Administrador.Nombre;
+            txtApellido.Text = bus.Administrador.Apellido;
+            txtNick.Text = bus.Administrador.Nick;
+            txtPass.Password = bus.Administrador.Pass;
+            txtConfirmarpass.Password = bus.Administrador.Pass;
+
+            txtNombre.IsEnabled = true;
+            txtApellido.IsEnabled = true;
+            txtNick.IsEnabled = true;
+            txtPass.IsEnabled = true;
+            txtConfirmarpass.IsEnabled = true;
+            btnNuevo.IsEnabled = false;
+            btnGuardar.IsEnabled = false;
+            btnModificar.IsEnabled = true;
+            btnEliminar.IsEnabled = true;
+            btnConsultar.IsEnabled = true;
+            btnSalir.IsEnabled = true;
+
+        }
+>>>>>>> Modificaciones-Pablo
     }
 }
